@@ -1,0 +1,31 @@
+{
+    "os": "macOS-15.1-arm64-arm-64bit",
+    "python": "3.12.2",
+    "heartbeatAt": "2025-03-04T14:08:19.107136",
+    "startedAt": "2025-03-04T14:08:17.948394",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py",
+    "codePathLocal": "siamese.py",
+    "codePath": "siamese.py",
+    "host": "Nilays-MacBook-Air.local",
+    "username": "nilaygaitonde",
+    "executable": "/Users/nilaygaitonde/anaconda3/envs/deeplearning/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 223.54379653930664
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

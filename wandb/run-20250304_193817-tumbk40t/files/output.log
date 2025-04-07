@@ -1,0 +1,32 @@
+/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py:271: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  trained_model.load_state_dict(torch.load("best_model.pth"))
+Traceback (most recent call last):
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 272, in <module>
+    trained_model, training_loss, validation_loss = training(trained_model, train_dataloader, val_dataloader, epochs=10, lr=0.001)
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 142, in training
+    for i, (img1, img2, label) in enumerate(train_loader):
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 63, in __getitem__
+    img1 = plt.imread(os.path.join(self.root_dir, self.data.iloc[idx, 0]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/matplotlib/pyplot.py", line 2404, in imread
+    return matplotlib.image.imread(fname, format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/matplotlib/image.py", line 1525, in imread
+    with img_open(fname) as image:
+         ^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/PIL/Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/nilaygaitonde/Documents/Projects/capstone/celeba-face-recognition-triplets/CelebA FR Triplets/CelebA FR Triplets/images/172334.jpg'
+Using device: mps
+Training epoch 1/10

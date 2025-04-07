@@ -1,0 +1,2427 @@
+/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py:274: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  trained_model.load_state_dict(torch.load("best_model.pth"))
+Using device: mps
+Training epoch 1/10
+Epoch 1/10, Iteration 1/980, Loss: 0.2521
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 13/20 = 0.6500 Iteration 101/980
+Batch accuracy: 8/20 = 0.4000 Iteration 201/980
+Batch accuracy: 16/20 = 0.8000 Iteration 301/980
+Batch accuracy: 9/20 = 0.4500 Iteration 401/980
+Batch accuracy: 8/20 = 0.4000 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 8/20 = 0.4000 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 10137/19598 = 0.5172 or 51.72%
+Epoch 1/10, Iteration 2/980, Loss: 0.2503
+Epoch 1/10, Iteration 3/980, Loss: 0.2311
+Epoch 1/10, Iteration 4/980, Loss: 0.3695
+Epoch 1/10, Iteration 5/980, Loss: 0.3262
+Epoch 1/10, Iteration 6/980, Loss: 0.2683
+Epoch 1/10, Iteration 7/980, Loss: 0.2966
+Epoch 1/10, Iteration 8/980, Loss: 0.2626
+Epoch 1/10, Iteration 9/980, Loss: 0.2495
+Epoch 1/10, Iteration 10/980, Loss: 0.2308
+Epoch 1/10, Iteration 11/980, Loss: 0.2396
+Epoch 1/10, Iteration 12/980, Loss: 0.3225
+Epoch 1/10, Iteration 13/980, Loss: 0.2690
+Epoch 1/10, Iteration 14/980, Loss: 0.2490
+Epoch 1/10, Iteration 15/980, Loss: 0.2573
+Epoch 1/10, Iteration 16/980, Loss: 0.2596
+Epoch 1/10, Iteration 17/980, Loss: 0.2745
+Epoch 1/10, Iteration 18/980, Loss: 0.2686
+Epoch 1/10, Iteration 19/980, Loss: 0.2885
+Epoch 1/10, Iteration 20/980, Loss: 0.2731
+Epoch 1/10, Iteration 21/980, Loss: 0.3644
+Epoch 1/10, Iteration 22/980, Loss: 0.2385
+Epoch 1/10, Iteration 23/980, Loss: 0.2939
+Epoch 1/10, Iteration 24/980, Loss: 0.3304
+Epoch 1/10, Iteration 25/980, Loss: 0.2812
+Epoch 1/10, Iteration 26/980, Loss: 0.3001
+Epoch 1/10, Iteration 27/980, Loss: 0.3086
+Epoch 1/10, Iteration 28/980, Loss: 0.3096
+Epoch 1/10, Iteration 29/980, Loss: 0.2665
+Epoch 1/10, Iteration 30/980, Loss: 0.2739
+Epoch 1/10, Iteration 31/980, Loss: 0.2809
+Epoch 1/10, Iteration 32/980, Loss: 0.2965
+Epoch 1/10, Iteration 33/980, Loss: 0.3036
+Epoch 1/10, Iteration 34/980, Loss: 0.2746
+Epoch 1/10, Iteration 35/980, Loss: 0.2675
+Epoch 1/10, Iteration 36/980, Loss: 0.2750
+Epoch 1/10, Iteration 37/980, Loss: 0.2779
+Epoch 1/10, Iteration 38/980, Loss: 0.2954
+Epoch 1/10, Iteration 39/980, Loss: 0.2758
+Epoch 1/10, Iteration 40/980, Loss: 0.2681
+Epoch 1/10, Iteration 41/980, Loss: 0.2736
+Epoch 1/10, Iteration 42/980, Loss: 0.2687
+Epoch 1/10, Iteration 43/980, Loss: 0.2821
+Epoch 1/10, Iteration 44/980, Loss: 0.3193
+Epoch 1/10, Iteration 45/980, Loss: 0.2938
+Epoch 1/10, Iteration 46/980, Loss: 0.2912
+Epoch 1/10, Iteration 47/980, Loss: 0.2444
+Epoch 1/10, Iteration 48/980, Loss: 0.2560
+Epoch 1/10, Iteration 49/980, Loss: 0.2608
+Epoch 1/10, Iteration 50/980, Loss: 0.2963
+Epoch 1/10, Iteration 51/980, Loss: 0.2772
+Epoch 1/10, Iteration 52/980, Loss: 0.2737
+Epoch 1/10, Iteration 53/980, Loss: 0.2668
+Epoch 1/10, Iteration 54/980, Loss: 0.3034
+Epoch 1/10, Iteration 55/980, Loss: 0.2551
+Epoch 1/10, Iteration 56/980, Loss: 0.2611
+Epoch 1/10, Iteration 57/980, Loss: 0.2644
+Epoch 1/10, Iteration 58/980, Loss: 0.2691
+Epoch 1/10, Iteration 59/980, Loss: 0.2689
+Epoch 1/10, Iteration 60/980, Loss: 0.2726
+Epoch 1/10, Iteration 61/980, Loss: 0.2662
+Epoch 1/10, Iteration 62/980, Loss: 0.2667
+Epoch 1/10, Iteration 63/980, Loss: 0.2651
+Epoch 1/10, Iteration 64/980, Loss: 0.2492
+Epoch 1/10, Iteration 65/980, Loss: 0.2690
+Epoch 1/10, Iteration 66/980, Loss: 0.2715
+Epoch 1/10, Iteration 67/980, Loss: 0.2755
+Epoch 1/10, Iteration 68/980, Loss: 0.3955
+Epoch 1/10, Iteration 69/980, Loss: 0.2773
+Epoch 1/10, Iteration 70/980, Loss: 0.3006
+Epoch 1/10, Iteration 71/980, Loss: 0.2631
+Epoch 1/10, Iteration 72/980, Loss: 0.2961
+Epoch 1/10, Iteration 73/980, Loss: 0.2915
+Epoch 1/10, Iteration 74/980, Loss: 0.2541
+Epoch 1/10, Iteration 75/980, Loss: 0.2898
+Epoch 1/10, Iteration 76/980, Loss: 0.2662
+Epoch 1/10, Iteration 77/980, Loss: 0.2498
+Epoch 1/10, Iteration 78/980, Loss: 0.2750
+Epoch 1/10, Iteration 79/980, Loss: 0.2600
+Epoch 1/10, Iteration 80/980, Loss: 0.2990
+Epoch 1/10, Iteration 81/980, Loss: 0.2943
+Epoch 1/10, Iteration 82/980, Loss: 0.3378
+Epoch 1/10, Iteration 83/980, Loss: 0.2845
+Epoch 1/10, Iteration 84/980, Loss: 0.2417
+Epoch 1/10, Iteration 85/980, Loss: 0.2767
+Epoch 1/10, Iteration 86/980, Loss: 0.3096
+Epoch 1/10, Iteration 87/980, Loss: 0.2849
+Epoch 1/10, Iteration 88/980, Loss: 0.2850
+Epoch 1/10, Iteration 89/980, Loss: 0.2598
+Epoch 1/10, Iteration 90/980, Loss: 0.2710
+Epoch 1/10, Iteration 91/980, Loss: 0.2700
+Epoch 1/10, Iteration 92/980, Loss: 0.2564
+Epoch 1/10, Iteration 93/980, Loss: 0.2654
+Epoch 1/10, Iteration 94/980, Loss: 0.2503
+Epoch 1/10, Iteration 95/980, Loss: 0.2814
+Epoch 1/10, Iteration 96/980, Loss: 0.2777
+Epoch 1/10, Iteration 97/980, Loss: 0.2885
+Epoch 1/10, Iteration 98/980, Loss: 0.2256
+Epoch 1/10, Iteration 99/980, Loss: 0.3242
+Epoch 1/10, Iteration 100/980, Loss: 0.2903
+Epoch 1/10, Iteration 101/980, Loss: 0.2587
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 15/20 = 0.7500 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 10/20 = 0.5000 Iteration 301/980
+Batch accuracy: 9/20 = 0.4500 Iteration 401/980
+Batch accuracy: 8/20 = 0.4000 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 10724/19598 = 0.5472 or 54.72%
+Epoch 1/10, Iteration 102/980, Loss: 0.2579
+Epoch 1/10, Iteration 103/980, Loss: 0.2728
+Epoch 1/10, Iteration 104/980, Loss: 0.2896
+Epoch 1/10, Iteration 105/980, Loss: 0.2707
+Epoch 1/10, Iteration 106/980, Loss: 0.2590
+Epoch 1/10, Iteration 107/980, Loss: 0.2765
+Epoch 1/10, Iteration 108/980, Loss: 0.2578
+Epoch 1/10, Iteration 109/980, Loss: 0.2442
+Epoch 1/10, Iteration 110/980, Loss: 0.2490
+Epoch 1/10, Iteration 111/980, Loss: 0.2967
+Epoch 1/10, Iteration 112/980, Loss: 0.3855
+Epoch 1/10, Iteration 113/980, Loss: 0.2938
+Epoch 1/10, Iteration 114/980, Loss: 0.2796
+Epoch 1/10, Iteration 115/980, Loss: 0.2980
+Epoch 1/10, Iteration 116/980, Loss: 0.2465
+Epoch 1/10, Iteration 117/980, Loss: 0.2757
+Epoch 1/10, Iteration 118/980, Loss: 0.2709
+Epoch 1/10, Iteration 119/980, Loss: 0.2705
+Epoch 1/10, Iteration 120/980, Loss: 0.2679
+Epoch 1/10, Iteration 121/980, Loss: 0.2715
+Epoch 1/10, Iteration 122/980, Loss: 0.2831
+Epoch 1/10, Iteration 123/980, Loss: 0.2565
+Epoch 1/10, Iteration 124/980, Loss: 0.2707
+Epoch 1/10, Iteration 125/980, Loss: 0.2625
+Epoch 1/10, Iteration 126/980, Loss: 0.2637
+Epoch 1/10, Iteration 127/980, Loss: 0.2679
+Epoch 1/10, Iteration 128/980, Loss: 0.2728
+Epoch 1/10, Iteration 129/980, Loss: 0.2745
+Epoch 1/10, Iteration 130/980, Loss: 0.2541
+Epoch 1/10, Iteration 131/980, Loss: 0.2530
+Epoch 1/10, Iteration 132/980, Loss: 0.2686
+Epoch 1/10, Iteration 133/980, Loss: 0.2602
+Epoch 1/10, Iteration 134/980, Loss: 0.2600
+Epoch 1/10, Iteration 135/980, Loss: 0.2611
+Epoch 1/10, Iteration 136/980, Loss: 0.2941
+Epoch 1/10, Iteration 137/980, Loss: 0.2755
+Epoch 1/10, Iteration 138/980, Loss: 0.2525
+Epoch 1/10, Iteration 139/980, Loss: 0.2609
+Epoch 1/10, Iteration 140/980, Loss: 0.2704
+Epoch 1/10, Iteration 141/980, Loss: 0.2619
+Epoch 1/10, Iteration 142/980, Loss: 0.2652
+Epoch 1/10, Iteration 143/980, Loss: 0.2775
+Epoch 1/10, Iteration 144/980, Loss: 0.2604
+Epoch 1/10, Iteration 145/980, Loss: 0.2664
+Epoch 1/10, Iteration 146/980, Loss: 0.2701
+Epoch 1/10, Iteration 147/980, Loss: 0.2756
+Epoch 1/10, Iteration 148/980, Loss: 0.3092
+Epoch 1/10, Iteration 149/980, Loss: 0.2855
+Epoch 1/10, Iteration 150/980, Loss: 0.2684
+Epoch 1/10, Iteration 151/980, Loss: 0.2653
+Epoch 1/10, Iteration 152/980, Loss: 0.2658
+Epoch 1/10, Iteration 153/980, Loss: 0.2559
+Epoch 1/10, Iteration 154/980, Loss: 0.2592
+Epoch 1/10, Iteration 155/980, Loss: 0.2894
+Epoch 1/10, Iteration 156/980, Loss: 0.2438
+Epoch 1/10, Iteration 157/980, Loss: 0.2541
+Epoch 1/10, Iteration 158/980, Loss: 0.2943
+Epoch 1/10, Iteration 159/980, Loss: 0.2800
+Epoch 1/10, Iteration 160/980, Loss: 0.3078
+Epoch 1/10, Iteration 161/980, Loss: 0.2670
+Epoch 1/10, Iteration 162/980, Loss: 0.2634
+Epoch 1/10, Iteration 163/980, Loss: 0.2888
+Epoch 1/10, Iteration 164/980, Loss: 0.2632
+Epoch 1/10, Iteration 165/980, Loss: 0.2556
+Epoch 1/10, Iteration 166/980, Loss: 0.2596
+Epoch 1/10, Iteration 167/980, Loss: 0.2723
+Epoch 1/10, Iteration 168/980, Loss: 0.2486
+Epoch 1/10, Iteration 169/980, Loss: 0.2596
+Epoch 1/10, Iteration 170/980, Loss: 0.2577
+Epoch 1/10, Iteration 171/980, Loss: 0.2647
+Epoch 1/10, Iteration 172/980, Loss: 0.2686
+Epoch 1/10, Iteration 173/980, Loss: 0.2688
+Epoch 1/10, Iteration 174/980, Loss: 0.2608
+Epoch 1/10, Iteration 175/980, Loss: 0.2632
+Epoch 1/10, Iteration 176/980, Loss: 0.2620
+Epoch 1/10, Iteration 177/980, Loss: 0.2651
+Epoch 1/10, Iteration 178/980, Loss: 0.2653
+Epoch 1/10, Iteration 179/980, Loss: 0.2616
+Epoch 1/10, Iteration 180/980, Loss: 0.2620
+Epoch 1/10, Iteration 181/980, Loss: 0.2577
+Epoch 1/10, Iteration 182/980, Loss: 0.2590
+Epoch 1/10, Iteration 183/980, Loss: 0.2668
+Epoch 1/10, Iteration 184/980, Loss: 0.2628
+Epoch 1/10, Iteration 185/980, Loss: 0.2678
+Epoch 1/10, Iteration 186/980, Loss: 0.2930
+Epoch 1/10, Iteration 187/980, Loss: 0.2635
+Epoch 1/10, Iteration 188/980, Loss: 0.2574
+Epoch 1/10, Iteration 189/980, Loss: 0.2604
+Epoch 1/10, Iteration 190/980, Loss: 0.2567
+Epoch 1/10, Iteration 191/980, Loss: 0.3094
+Epoch 1/10, Iteration 192/980, Loss: 0.2637
+Epoch 1/10, Iteration 193/980, Loss: 0.2709
+Epoch 1/10, Iteration 194/980, Loss: 0.2611
+Epoch 1/10, Iteration 195/980, Loss: 0.2627
+Epoch 1/10, Iteration 196/980, Loss: 0.2665
+Epoch 1/10, Iteration 197/980, Loss: 0.2608
+Epoch 1/10, Iteration 198/980, Loss: 0.2569
+Epoch 1/10, Iteration 199/980, Loss: 0.2647
+Epoch 1/10, Iteration 200/980, Loss: 0.2526
+Epoch 1/10, Iteration 201/980, Loss: 0.2258
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 8/20 = 0.4000 Iteration 301/980
+Batch accuracy: 8/20 = 0.4000 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 6/20 = 0.3000 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 8/20 = 0.4000 Iteration 901/980
+Final accuracy: 10609/19598 = 0.5413 or 54.13%
+Epoch 1/10, Iteration 202/980, Loss: 0.2901
+Epoch 1/10, Iteration 203/980, Loss: 0.2601
+Epoch 1/10, Iteration 204/980, Loss: 0.2853
+Epoch 1/10, Iteration 205/980, Loss: 0.2929
+Epoch 1/10, Iteration 206/980, Loss: 0.2422
+Epoch 1/10, Iteration 207/980, Loss: 0.2652
+Epoch 1/10, Iteration 208/980, Loss: 0.2696
+Epoch 1/10, Iteration 209/980, Loss: 0.2560
+Epoch 1/10, Iteration 210/980, Loss: 0.2603
+Epoch 1/10, Iteration 211/980, Loss: 0.2712
+Epoch 1/10, Iteration 212/980, Loss: 0.2718
+Epoch 1/10, Iteration 213/980, Loss: 0.2653
+Epoch 1/10, Iteration 214/980, Loss: 0.2718
+Epoch 1/10, Iteration 215/980, Loss: 0.2712
+Epoch 1/10, Iteration 216/980, Loss: 0.2750
+Epoch 1/10, Iteration 217/980, Loss: 0.2687
+Epoch 1/10, Iteration 218/980, Loss: 0.2756
+Epoch 1/10, Iteration 219/980, Loss: 0.2387
+Epoch 1/10, Iteration 220/980, Loss: 0.2962
+Epoch 1/10, Iteration 221/980, Loss: 0.2896
+Epoch 1/10, Iteration 222/980, Loss: 0.3152
+Epoch 1/10, Iteration 223/980, Loss: 0.2772
+Epoch 1/10, Iteration 224/980, Loss: 0.2802
+Epoch 1/10, Iteration 225/980, Loss: 0.2659
+Epoch 1/10, Iteration 226/980, Loss: 0.2660
+Epoch 1/10, Iteration 227/980, Loss: 0.2840
+Epoch 1/10, Iteration 228/980, Loss: 0.2649
+Epoch 1/10, Iteration 229/980, Loss: 0.2567
+Epoch 1/10, Iteration 230/980, Loss: 0.2429
+Epoch 1/10, Iteration 231/980, Loss: 0.2437
+Epoch 1/10, Iteration 232/980, Loss: 0.2574
+Epoch 1/10, Iteration 233/980, Loss: 0.3280
+Epoch 1/10, Iteration 234/980, Loss: 0.2171
+Epoch 1/10, Iteration 235/980, Loss: 0.2559
+Epoch 1/10, Iteration 236/980, Loss: 0.2859
+Epoch 1/10, Iteration 237/980, Loss: 0.2199
+Epoch 1/10, Iteration 238/980, Loss: 0.2764
+Epoch 1/10, Iteration 239/980, Loss: 0.3197
+Epoch 1/10, Iteration 240/980, Loss: 0.2592
+Epoch 1/10, Iteration 241/980, Loss: 0.2298
+Epoch 1/10, Iteration 242/980, Loss: 0.3162
+Epoch 1/10, Iteration 243/980, Loss: 0.2883
+Epoch 1/10, Iteration 244/980, Loss: 0.2605
+Epoch 1/10, Iteration 245/980, Loss: 0.2731
+Epoch 1/10, Iteration 246/980, Loss: 0.2557
+Epoch 1/10, Iteration 247/980, Loss: 0.2706
+Epoch 1/10, Iteration 248/980, Loss: 0.2812
+Epoch 1/10, Iteration 249/980, Loss: 0.2725
+Epoch 1/10, Iteration 250/980, Loss: 0.2728
+Epoch 1/10, Iteration 251/980, Loss: 0.2609
+Epoch 1/10, Iteration 252/980, Loss: 0.2697
+Epoch 1/10, Iteration 253/980, Loss: 0.2495
+Epoch 1/10, Iteration 254/980, Loss: 0.2626
+Epoch 1/10, Iteration 255/980, Loss: 0.2747
+Epoch 1/10, Iteration 256/980, Loss: 0.2515
+Epoch 1/10, Iteration 257/980, Loss: 0.2798
+Epoch 1/10, Iteration 258/980, Loss: 0.2935
+Epoch 1/10, Iteration 259/980, Loss: 0.2722
+Epoch 1/10, Iteration 260/980, Loss: 0.2765
+Epoch 1/10, Iteration 261/980, Loss: 0.2668
+Epoch 1/10, Iteration 262/980, Loss: 0.2760
+Epoch 1/10, Iteration 263/980, Loss: 0.2592
+Epoch 1/10, Iteration 264/980, Loss: 0.2726
+Epoch 1/10, Iteration 265/980, Loss: 0.2700
+Epoch 1/10, Iteration 266/980, Loss: 0.2627
+Epoch 1/10, Iteration 267/980, Loss: 0.2271
+Epoch 1/10, Iteration 268/980, Loss: 0.3027
+Epoch 1/10, Iteration 269/980, Loss: 0.2954
+Epoch 1/10, Iteration 270/980, Loss: 0.2579
+Epoch 1/10, Iteration 271/980, Loss: 0.2593
+Epoch 1/10, Iteration 272/980, Loss: 0.2601
+Epoch 1/10, Iteration 273/980, Loss: 0.2837
+Epoch 1/10, Iteration 274/980, Loss: 0.2933
+Epoch 1/10, Iteration 275/980, Loss: 0.2710
+Epoch 1/10, Iteration 276/980, Loss: 0.2642
+Epoch 1/10, Iteration 277/980, Loss: 0.2621
+Epoch 1/10, Iteration 278/980, Loss: 0.2449
+Epoch 1/10, Iteration 279/980, Loss: 0.2630
+Epoch 1/10, Iteration 280/980, Loss: 0.2711
+Epoch 1/10, Iteration 281/980, Loss: 0.2647
+Epoch 1/10, Iteration 282/980, Loss: 0.2751
+Epoch 1/10, Iteration 283/980, Loss: 0.2575
+Epoch 1/10, Iteration 284/980, Loss: 0.2478
+Epoch 1/10, Iteration 285/980, Loss: 0.2808
+Epoch 1/10, Iteration 286/980, Loss: 0.2656
+Epoch 1/10, Iteration 287/980, Loss: 0.2743
+Epoch 1/10, Iteration 288/980, Loss: 0.2564
+Epoch 1/10, Iteration 289/980, Loss: 0.2816
+Epoch 1/10, Iteration 290/980, Loss: 0.2907
+Epoch 1/10, Iteration 291/980, Loss: 0.2602
+Epoch 1/10, Iteration 292/980, Loss: 0.2868
+Epoch 1/10, Iteration 293/980, Loss: 0.2735
+Epoch 1/10, Iteration 294/980, Loss: 0.2696
+Epoch 1/10, Iteration 295/980, Loss: 0.2636
+Epoch 1/10, Iteration 296/980, Loss: 0.2875
+Epoch 1/10, Iteration 297/980, Loss: 0.2645
+Epoch 1/10, Iteration 298/980, Loss: 0.2782
+Epoch 1/10, Iteration 299/980, Loss: 0.2675
+Epoch 1/10, Iteration 300/980, Loss: 0.2674
+Epoch 1/10, Iteration 301/980, Loss: 0.2556
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 8/20 = 0.4000 Iteration 101/980
+Batch accuracy: 8/20 = 0.4000 Iteration 201/980
+Batch accuracy: 8/20 = 0.4000 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 15/20 = 0.7500 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 11280/19598 = 0.5756 or 57.56%
+Epoch 1/10, Iteration 302/980, Loss: 0.2570
+Epoch 1/10, Iteration 303/980, Loss: 0.2508
+Epoch 1/10, Iteration 304/980, Loss: 0.2661
+Epoch 1/10, Iteration 305/980, Loss: 0.2305
+Epoch 1/10, Iteration 306/980, Loss: 0.2581
+Epoch 1/10, Iteration 307/980, Loss: 0.2840
+Epoch 1/10, Iteration 308/980, Loss: 0.3009
+Epoch 1/10, Iteration 309/980, Loss: 0.2622
+Epoch 1/10, Iteration 310/980, Loss: 0.2659
+Epoch 1/10, Iteration 311/980, Loss: 0.2515
+Epoch 1/10, Iteration 312/980, Loss: 0.2655
+Epoch 1/10, Iteration 313/980, Loss: 0.2630
+Epoch 1/10, Iteration 314/980, Loss: 0.2771
+Epoch 1/10, Iteration 315/980, Loss: 0.2784
+Epoch 1/10, Iteration 316/980, Loss: 0.2706
+Epoch 1/10, Iteration 317/980, Loss: 0.2784
+Epoch 1/10, Iteration 318/980, Loss: 0.2617
+Epoch 1/10, Iteration 319/980, Loss: 0.2727
+Epoch 1/10, Iteration 320/980, Loss: 0.3183
+Epoch 1/10, Iteration 321/980, Loss: 0.2695
+Epoch 1/10, Iteration 322/980, Loss: 0.2722
+Epoch 1/10, Iteration 323/980, Loss: 0.2621
+Epoch 1/10, Iteration 324/980, Loss: 0.2677
+Epoch 1/10, Iteration 325/980, Loss: 0.2628
+Epoch 1/10, Iteration 326/980, Loss: 0.2627
+Epoch 1/10, Iteration 327/980, Loss: 0.2788
+Epoch 1/10, Iteration 328/980, Loss: 0.2641
+Epoch 1/10, Iteration 329/980, Loss: 0.2935
+Epoch 1/10, Iteration 330/980, Loss: 0.2552
+Epoch 1/10, Iteration 331/980, Loss: 0.2731
+Epoch 1/10, Iteration 332/980, Loss: 0.2610
+Epoch 1/10, Iteration 333/980, Loss: 0.2612
+Epoch 1/10, Iteration 334/980, Loss: 0.2550
+Epoch 1/10, Iteration 335/980, Loss: 0.2818
+Epoch 1/10, Iteration 336/980, Loss: 0.2607
+Epoch 1/10, Iteration 337/980, Loss: 0.2787
+Epoch 1/10, Iteration 338/980, Loss: 0.2876
+Epoch 1/10, Iteration 339/980, Loss: 0.2661
+Epoch 1/10, Iteration 340/980, Loss: 0.2716
+Epoch 1/10, Iteration 341/980, Loss: 0.2624
+Epoch 1/10, Iteration 342/980, Loss: 0.3097
+Epoch 1/10, Iteration 343/980, Loss: 0.2736
+Epoch 1/10, Iteration 344/980, Loss: 0.2793
+Epoch 1/10, Iteration 345/980, Loss: 0.2667
+Epoch 1/10, Iteration 346/980, Loss: 0.2642
+Epoch 1/10, Iteration 347/980, Loss: 0.2734
+Epoch 1/10, Iteration 348/980, Loss: 0.2704
+Epoch 1/10, Iteration 349/980, Loss: 0.2718
+Epoch 1/10, Iteration 350/980, Loss: 0.2571
+Epoch 1/10, Iteration 351/980, Loss: 0.2509
+Epoch 1/10, Iteration 352/980, Loss: 0.2684
+Epoch 1/10, Iteration 353/980, Loss: 0.2457
+Epoch 1/10, Iteration 354/980, Loss: 0.2680
+Epoch 1/10, Iteration 355/980, Loss: 0.2592
+Epoch 1/10, Iteration 356/980, Loss: 0.3028
+Epoch 1/10, Iteration 357/980, Loss: 0.2952
+Epoch 1/10, Iteration 358/980, Loss: 0.2633
+Epoch 1/10, Iteration 359/980, Loss: 0.2536
+Epoch 1/10, Iteration 360/980, Loss: 0.2544
+Epoch 1/10, Iteration 361/980, Loss: 0.2523
+Epoch 1/10, Iteration 362/980, Loss: 0.2803
+Epoch 1/10, Iteration 363/980, Loss: 0.2646
+Epoch 1/10, Iteration 364/980, Loss: 0.2773
+Epoch 1/10, Iteration 365/980, Loss: 0.2480
+Epoch 1/10, Iteration 366/980, Loss: 0.2724
+Epoch 1/10, Iteration 367/980, Loss: 0.2663
+Epoch 1/10, Iteration 368/980, Loss: 0.2590
+Epoch 1/10, Iteration 369/980, Loss: 0.2642
+Epoch 1/10, Iteration 370/980, Loss: 0.2591
+Epoch 1/10, Iteration 371/980, Loss: 0.2632
+Epoch 1/10, Iteration 372/980, Loss: 0.2641
+Epoch 1/10, Iteration 373/980, Loss: 0.2650
+Epoch 1/10, Iteration 374/980, Loss: 0.2731
+Epoch 1/10, Iteration 375/980, Loss: 0.2598
+Epoch 1/10, Iteration 376/980, Loss: 0.2577
+Epoch 1/10, Iteration 377/980, Loss: 0.2633
+Epoch 1/10, Iteration 378/980, Loss: 0.2688
+Epoch 1/10, Iteration 379/980, Loss: 0.2740
+Epoch 1/10, Iteration 380/980, Loss: 0.2577
+Epoch 1/10, Iteration 381/980, Loss: 0.2617
+Epoch 1/10, Iteration 382/980, Loss: 0.2496
+Epoch 1/10, Iteration 383/980, Loss: 0.2490
+Epoch 1/10, Iteration 384/980, Loss: 0.2819
+Epoch 1/10, Iteration 385/980, Loss: 0.2957
+Epoch 1/10, Iteration 386/980, Loss: 0.2519
+Epoch 1/10, Iteration 387/980, Loss: 0.2985
+Epoch 1/10, Iteration 388/980, Loss: 0.2564
+Epoch 1/10, Iteration 389/980, Loss: 0.2697
+Epoch 1/10, Iteration 390/980, Loss: 0.2638
+Epoch 1/10, Iteration 391/980, Loss: 0.2828
+Epoch 1/10, Iteration 392/980, Loss: 0.2567
+Epoch 1/10, Iteration 393/980, Loss: 0.2648
+Epoch 1/10, Iteration 394/980, Loss: 0.2539
+Epoch 1/10, Iteration 395/980, Loss: 0.2579
+Epoch 1/10, Iteration 396/980, Loss: 0.2712
+Epoch 1/10, Iteration 397/980, Loss: 0.2567
+Epoch 1/10, Iteration 398/980, Loss: 0.2524
+Epoch 1/10, Iteration 399/980, Loss: 0.2550
+Epoch 1/10, Iteration 400/980, Loss: 0.2839
+Epoch 1/10, Iteration 401/980, Loss: 0.2698
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 10/20 = 0.5000 Iteration 201/980
+Batch accuracy: 14/20 = 0.7000 Iteration 301/980
+Batch accuracy: 7/20 = 0.3500 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 13/20 = 0.6500 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 16/20 = 0.8000 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 10789/19598 = 0.5505 or 55.05%
+Epoch 1/10, Iteration 402/980, Loss: 0.2793
+Epoch 1/10, Iteration 403/980, Loss: 0.2929
+Epoch 1/10, Iteration 404/980, Loss: 0.2606
+Epoch 1/10, Iteration 405/980, Loss: 0.2617
+Epoch 1/10, Iteration 406/980, Loss: 0.2797
+Epoch 1/10, Iteration 407/980, Loss: 0.2710
+Epoch 1/10, Iteration 408/980, Loss: 0.2539
+Epoch 1/10, Iteration 409/980, Loss: 0.2590
+Epoch 1/10, Iteration 410/980, Loss: 0.2995
+Epoch 1/10, Iteration 411/980, Loss: 0.2566
+Epoch 1/10, Iteration 412/980, Loss: 0.2662
+Epoch 1/10, Iteration 413/980, Loss: 0.2586
+Epoch 1/10, Iteration 414/980, Loss: 0.2573
+Epoch 1/10, Iteration 415/980, Loss: 0.2557
+Epoch 1/10, Iteration 416/980, Loss: 0.2644
+Epoch 1/10, Iteration 417/980, Loss: 0.2665
+Epoch 1/10, Iteration 418/980, Loss: 0.2656
+Epoch 1/10, Iteration 419/980, Loss: 0.2561
+Epoch 1/10, Iteration 420/980, Loss: 0.2534
+Epoch 1/10, Iteration 421/980, Loss: 0.2618
+Epoch 1/10, Iteration 422/980, Loss: 0.2702
+Epoch 1/10, Iteration 423/980, Loss: 0.2614
+Epoch 1/10, Iteration 424/980, Loss: 0.2776
+Epoch 1/10, Iteration 425/980, Loss: 0.2690
+Epoch 1/10, Iteration 426/980, Loss: 0.2600
+Epoch 1/10, Iteration 427/980, Loss: 0.2561
+Epoch 1/10, Iteration 428/980, Loss: 0.2536
+Epoch 1/10, Iteration 429/980, Loss: 0.2577
+Epoch 1/10, Iteration 430/980, Loss: 0.2582
+Epoch 1/10, Iteration 431/980, Loss: 0.2624
+Epoch 1/10, Iteration 432/980, Loss: 0.2647
+Epoch 1/10, Iteration 433/980, Loss: 0.2586
+Epoch 1/10, Iteration 434/980, Loss: 0.2575
+Epoch 1/10, Iteration 435/980, Loss: 0.2549
+Epoch 1/10, Iteration 436/980, Loss: 0.2837
+Epoch 1/10, Iteration 437/980, Loss: 0.2601
+Epoch 1/10, Iteration 438/980, Loss: 0.2599
+Epoch 1/10, Iteration 439/980, Loss: 0.2485
+Epoch 1/10, Iteration 440/980, Loss: 0.2590
+Epoch 1/10, Iteration 441/980, Loss: 0.2829
+Epoch 1/10, Iteration 442/980, Loss: 0.2828
+Epoch 1/10, Iteration 443/980, Loss: 0.2682
+Epoch 1/10, Iteration 444/980, Loss: 0.2587
+Epoch 1/10, Iteration 445/980, Loss: 0.2700
+Epoch 1/10, Iteration 446/980, Loss: 0.2712
+Epoch 1/10, Iteration 447/980, Loss: 0.2540
+Epoch 1/10, Iteration 448/980, Loss: 0.2612
+Epoch 1/10, Iteration 449/980, Loss: 0.2655
+Epoch 1/10, Iteration 450/980, Loss: 0.2615
+Epoch 1/10, Iteration 451/980, Loss: 0.2621
+Epoch 1/10, Iteration 452/980, Loss: 0.2654
+Epoch 1/10, Iteration 453/980, Loss: 0.2669
+Epoch 1/10, Iteration 454/980, Loss: 0.2707
+Epoch 1/10, Iteration 455/980, Loss: 0.2901
+Epoch 1/10, Iteration 456/980, Loss: 0.2684
+Epoch 1/10, Iteration 457/980, Loss: 0.2643
+Epoch 1/10, Iteration 458/980, Loss: 0.2662
+Epoch 1/10, Iteration 459/980, Loss: 0.2611
+Epoch 1/10, Iteration 460/980, Loss: 0.2735
+Epoch 1/10, Iteration 461/980, Loss: 0.2684
+Epoch 1/10, Iteration 462/980, Loss: 0.2573
+Epoch 1/10, Iteration 463/980, Loss: 0.2653
+Epoch 1/10, Iteration 464/980, Loss: 0.2718
+Epoch 1/10, Iteration 465/980, Loss: 0.2537
+Epoch 1/10, Iteration 466/980, Loss: 0.2737
+Epoch 1/10, Iteration 467/980, Loss: 0.2572
+Epoch 1/10, Iteration 468/980, Loss: 0.2609
+Epoch 1/10, Iteration 469/980, Loss: 0.2667
+Epoch 1/10, Iteration 470/980, Loss: 0.2732
+Epoch 1/10, Iteration 471/980, Loss: 0.2697
+Epoch 1/10, Iteration 472/980, Loss: 0.2361
+Epoch 1/10, Iteration 473/980, Loss: 0.2593
+Epoch 1/10, Iteration 474/980, Loss: 0.2582
+Epoch 1/10, Iteration 475/980, Loss: 0.2615
+Epoch 1/10, Iteration 476/980, Loss: 0.2545
+Epoch 1/10, Iteration 477/980, Loss: 0.2651
+Epoch 1/10, Iteration 478/980, Loss: 0.2626
+Epoch 1/10, Iteration 479/980, Loss: 0.2817
+Epoch 1/10, Iteration 480/980, Loss: 0.2676
+Epoch 1/10, Iteration 481/980, Loss: 0.2531
+Epoch 1/10, Iteration 482/980, Loss: 0.2744
+Epoch 1/10, Iteration 483/980, Loss: 0.2727
+Epoch 1/10, Iteration 484/980, Loss: 0.2679
+Epoch 1/10, Iteration 485/980, Loss: 0.2487
+Epoch 1/10, Iteration 486/980, Loss: 0.2558
+Epoch 1/10, Iteration 487/980, Loss: 0.2559
+Epoch 1/10, Iteration 488/980, Loss: 0.2615
+Epoch 1/10, Iteration 489/980, Loss: 0.2525
+Epoch 1/10, Iteration 490/980, Loss: 0.2748
+Epoch 1/10, Iteration 491/980, Loss: 0.2627
+Epoch 1/10, Iteration 492/980, Loss: 0.2502
+Epoch 1/10, Iteration 493/980, Loss: 0.2767
+Epoch 1/10, Iteration 494/980, Loss: 0.2735
+Epoch 1/10, Iteration 495/980, Loss: 0.2577
+Epoch 1/10, Iteration 496/980, Loss: 0.2571
+Epoch 1/10, Iteration 497/980, Loss: 0.2821
+Epoch 1/10, Iteration 498/980, Loss: 0.3040
+Epoch 1/10, Iteration 499/980, Loss: 0.2667
+Epoch 1/10, Iteration 500/980, Loss: 0.2728
+Epoch 1/10, Iteration 501/980, Loss: 0.2651
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 6/20 = 0.3000 Iteration 101/980
+Batch accuracy: 8/20 = 0.4000 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 9/20 = 0.4500 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 15/20 = 0.7500 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 11114/19598 = 0.5671 or 56.71%
+Epoch 1/10, Iteration 502/980, Loss: 0.2517
+Epoch 1/10, Iteration 503/980, Loss: 0.2684
+Epoch 1/10, Iteration 504/980, Loss: 0.2687
+Epoch 1/10, Iteration 505/980, Loss: 0.2811
+Epoch 1/10, Iteration 506/980, Loss: 0.2641
+Epoch 1/10, Iteration 507/980, Loss: 0.2638
+Epoch 1/10, Iteration 508/980, Loss: 0.2261
+Epoch 1/10, Iteration 509/980, Loss: 0.2785
+Epoch 1/10, Iteration 510/980, Loss: 0.2648
+Epoch 1/10, Iteration 511/980, Loss: 0.2695
+Epoch 1/10, Iteration 512/980, Loss: 0.2706
+Epoch 1/10, Iteration 513/980, Loss: 0.2580
+Epoch 1/10, Iteration 514/980, Loss: 0.2725
+Epoch 1/10, Iteration 515/980, Loss: 0.2642
+Epoch 1/10, Iteration 516/980, Loss: 0.2828
+Epoch 1/10, Iteration 517/980, Loss: 0.2797
+Epoch 1/10, Iteration 518/980, Loss: 0.2914
+Epoch 1/10, Iteration 519/980, Loss: 0.2562
+Epoch 1/10, Iteration 520/980, Loss: 0.2840
+Epoch 1/10, Iteration 521/980, Loss: 0.2702
+Epoch 1/10, Iteration 522/980, Loss: 0.2933
+Epoch 1/10, Iteration 523/980, Loss: 0.2492
+Epoch 1/10, Iteration 524/980, Loss: 0.2671
+Epoch 1/10, Iteration 525/980, Loss: 0.2618
+Epoch 1/10, Iteration 526/980, Loss: 0.2570
+Epoch 1/10, Iteration 527/980, Loss: 0.2658
+Epoch 1/10, Iteration 528/980, Loss: 0.2635
+Epoch 1/10, Iteration 529/980, Loss: 0.3173
+Epoch 1/10, Iteration 530/980, Loss: 0.2640
+Epoch 1/10, Iteration 531/980, Loss: 0.2557
+Epoch 1/10, Iteration 532/980, Loss: 0.2535
+Epoch 1/10, Iteration 533/980, Loss: 0.2796
+Epoch 1/10, Iteration 534/980, Loss: 0.2826
+Epoch 1/10, Iteration 535/980, Loss: 0.2653
+Epoch 1/10, Iteration 536/980, Loss: 0.2664
+Epoch 1/10, Iteration 537/980, Loss: 0.2723
+Epoch 1/10, Iteration 538/980, Loss: 0.3019
+Epoch 1/10, Iteration 539/980, Loss: 0.2968
+Epoch 1/10, Iteration 540/980, Loss: 0.3425
+Epoch 1/10, Iteration 541/980, Loss: 0.2499
+Epoch 1/10, Iteration 542/980, Loss: 0.3389
+Epoch 1/10, Iteration 543/980, Loss: 0.3010
+Epoch 1/10, Iteration 544/980, Loss: 0.2830
+Epoch 1/10, Iteration 545/980, Loss: 0.3122
+Epoch 1/10, Iteration 546/980, Loss: 0.3873
+Epoch 1/10, Iteration 547/980, Loss: 0.2844
+Epoch 1/10, Iteration 548/980, Loss: 0.2668
+Epoch 1/10, Iteration 549/980, Loss: 0.3047
+Epoch 1/10, Iteration 550/980, Loss: 0.2930
+Epoch 1/10, Iteration 551/980, Loss: 0.2865
+Epoch 1/10, Iteration 552/980, Loss: 0.3102
+Epoch 1/10, Iteration 553/980, Loss: 0.2679
+Epoch 1/10, Iteration 554/980, Loss: 0.2699
+Epoch 1/10, Iteration 555/980, Loss: 0.2774
+Epoch 1/10, Iteration 556/980, Loss: 0.2730
+Epoch 1/10, Iteration 557/980, Loss: 0.2935
+Epoch 1/10, Iteration 558/980, Loss: 0.2818
+Epoch 1/10, Iteration 559/980, Loss: 0.2822
+Epoch 1/10, Iteration 560/980, Loss: 0.2756
+Epoch 1/10, Iteration 561/980, Loss: 0.2787
+Epoch 1/10, Iteration 562/980, Loss: 0.2679
+Epoch 1/10, Iteration 563/980, Loss: 0.2806
+Epoch 1/10, Iteration 564/980, Loss: 0.2706
+Epoch 1/10, Iteration 565/980, Loss: 0.2758
+Epoch 1/10, Iteration 566/980, Loss: 0.2618
+Epoch 1/10, Iteration 567/980, Loss: 0.2992
+Epoch 1/10, Iteration 568/980, Loss: 0.2976
+Epoch 1/10, Iteration 569/980, Loss: 0.2635
+Epoch 1/10, Iteration 570/980, Loss: 0.2515
+Epoch 1/10, Iteration 571/980, Loss: 0.2911
+Epoch 1/10, Iteration 572/980, Loss: 0.2659
+Epoch 1/10, Iteration 573/980, Loss: 0.2561
+Epoch 1/10, Iteration 574/980, Loss: 0.2698
+Epoch 1/10, Iteration 575/980, Loss: 0.2605
+Epoch 1/10, Iteration 576/980, Loss: 0.3397
+Epoch 1/10, Iteration 577/980, Loss: 0.2337
+Epoch 1/10, Iteration 578/980, Loss: 0.2091
+Epoch 1/10, Iteration 579/980, Loss: 0.2916
+Epoch 1/10, Iteration 580/980, Loss: 0.2765
+Epoch 1/10, Iteration 581/980, Loss: 0.3403
+Epoch 1/10, Iteration 582/980, Loss: 0.2787
+Epoch 1/10, Iteration 583/980, Loss: 0.2770
+Epoch 1/10, Iteration 584/980, Loss: 0.2672
+Epoch 1/10, Iteration 585/980, Loss: 0.2849
+Epoch 1/10, Iteration 586/980, Loss: 0.2634
+Epoch 1/10, Iteration 587/980, Loss: 0.2557
+Epoch 1/10, Iteration 588/980, Loss: 0.2698
+Epoch 1/10, Iteration 589/980, Loss: 0.2632
+Epoch 1/10, Iteration 590/980, Loss: 0.2630
+Epoch 1/10, Iteration 591/980, Loss: 0.2455
+Epoch 1/10, Iteration 592/980, Loss: 0.2740
+Epoch 1/10, Iteration 593/980, Loss: 0.2990
+Epoch 1/10, Iteration 594/980, Loss: 0.2576
+Epoch 1/10, Iteration 595/980, Loss: 0.2616
+Epoch 1/10, Iteration 596/980, Loss: 0.2870
+Epoch 1/10, Iteration 597/980, Loss: 0.2615
+Epoch 1/10, Iteration 598/980, Loss: 0.2754
+Epoch 1/10, Iteration 599/980, Loss: 0.2646
+Epoch 1/10, Iteration 600/980, Loss: 0.2527
+Epoch 1/10, Iteration 601/980, Loss: 0.2679
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 10/20 = 0.5000 Iteration 201/980
+Batch accuracy: 8/20 = 0.4000 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 15/20 = 0.7500 Iteration 501/980
+Batch accuracy: 9/20 = 0.4500 Iteration 601/980
+Batch accuracy: 4/20 = 0.2000 Iteration 701/980
+Batch accuracy: 7/20 = 0.3500 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 10603/19598 = 0.5410 or 54.10%
+Epoch 1/10, Iteration 602/980, Loss: 0.2570
+Epoch 1/10, Iteration 603/980, Loss: 0.2710
+Epoch 1/10, Iteration 604/980, Loss: 0.2858
+Epoch 1/10, Iteration 605/980, Loss: 0.2609
+Epoch 1/10, Iteration 606/980, Loss: 0.2652
+Epoch 1/10, Iteration 607/980, Loss: 0.2772
+Epoch 1/10, Iteration 608/980, Loss: 0.2937
+Epoch 1/10, Iteration 609/980, Loss: 0.2411
+Epoch 1/10, Iteration 610/980, Loss: 0.2719
+Epoch 1/10, Iteration 611/980, Loss: 0.2574
+Epoch 1/10, Iteration 612/980, Loss: 0.2763
+Epoch 1/10, Iteration 613/980, Loss: 0.2640
+Epoch 1/10, Iteration 614/980, Loss: 0.2601
+Epoch 1/10, Iteration 615/980, Loss: 0.2742
+Epoch 1/10, Iteration 616/980, Loss: 0.2630
+Epoch 1/10, Iteration 617/980, Loss: 0.2711
+Epoch 1/10, Iteration 618/980, Loss: 0.2585
+Epoch 1/10, Iteration 619/980, Loss: 0.2502
+Epoch 1/10, Iteration 620/980, Loss: 0.2643
+Epoch 1/10, Iteration 621/980, Loss: 0.2669
+Epoch 1/10, Iteration 622/980, Loss: 0.2668
+Epoch 1/10, Iteration 623/980, Loss: 0.2629
+Epoch 1/10, Iteration 624/980, Loss: 0.2658
+Epoch 1/10, Iteration 625/980, Loss: 0.2822
+Epoch 1/10, Iteration 626/980, Loss: 0.2623
+Epoch 1/10, Iteration 627/980, Loss: 0.2667
+Epoch 1/10, Iteration 628/980, Loss: 0.2716
+Epoch 1/10, Iteration 629/980, Loss: 0.2657
+Epoch 1/10, Iteration 630/980, Loss: 0.2686
+Epoch 1/10, Iteration 631/980, Loss: 0.2564
+Epoch 1/10, Iteration 632/980, Loss: 0.2724
+Epoch 1/10, Iteration 633/980, Loss: 0.2870
+Epoch 1/10, Iteration 634/980, Loss: 0.2645
+Epoch 1/10, Iteration 635/980, Loss: 0.3266
+Epoch 1/10, Iteration 636/980, Loss: 0.2806
+Epoch 1/10, Iteration 637/980, Loss: 0.2706
+Epoch 1/10, Iteration 638/980, Loss: 0.2671
+Epoch 1/10, Iteration 639/980, Loss: 0.2686
+Epoch 1/10, Iteration 640/980, Loss: 0.2434
+Epoch 1/10, Iteration 641/980, Loss: 0.2762
+Epoch 1/10, Iteration 642/980, Loss: 0.2667
+Epoch 1/10, Iteration 643/980, Loss: 0.2600
+Epoch 1/10, Iteration 644/980, Loss: 0.2650
+Epoch 1/10, Iteration 645/980, Loss: 0.2630
+Epoch 1/10, Iteration 646/980, Loss: 0.2606
+Epoch 1/10, Iteration 647/980, Loss: 0.2591
+Epoch 1/10, Iteration 648/980, Loss: 0.2573
+Epoch 1/10, Iteration 649/980, Loss: 0.2525
+Epoch 1/10, Iteration 650/980, Loss: 0.2704
+Epoch 1/10, Iteration 651/980, Loss: 0.2466
+Epoch 1/10, Iteration 652/980, Loss: 0.2603
+Epoch 1/10, Iteration 653/980, Loss: 0.2759
+Epoch 1/10, Iteration 654/980, Loss: 0.2553
+Epoch 1/10, Iteration 655/980, Loss: 0.2568
+Epoch 1/10, Iteration 656/980, Loss: 0.2594
+Epoch 1/10, Iteration 657/980, Loss: 0.2693
+Epoch 1/10, Iteration 658/980, Loss: 0.2636
+Epoch 1/10, Iteration 659/980, Loss: 0.2622
+Epoch 1/10, Iteration 660/980, Loss: 0.2645
+Epoch 1/10, Iteration 661/980, Loss: 0.2581
+Epoch 1/10, Iteration 662/980, Loss: 0.2710
+Epoch 1/10, Iteration 663/980, Loss: 0.2614
+Epoch 1/10, Iteration 664/980, Loss: 0.2570
+Epoch 1/10, Iteration 665/980, Loss: 0.2655
+Epoch 1/10, Iteration 666/980, Loss: 0.2558
+Epoch 1/10, Iteration 667/980, Loss: 0.2547
+Epoch 1/10, Iteration 668/980, Loss: 0.2287
+Epoch 1/10, Iteration 669/980, Loss: 0.2529
+Epoch 1/10, Iteration 670/980, Loss: 0.2967
+Epoch 1/10, Iteration 671/980, Loss: 0.3046
+Epoch 1/10, Iteration 672/980, Loss: 0.2597
+Epoch 1/10, Iteration 673/980, Loss: 0.2879
+Epoch 1/10, Iteration 674/980, Loss: 0.2791
+Epoch 1/10, Iteration 675/980, Loss: 0.2256
+Epoch 1/10, Iteration 676/980, Loss: 0.3142
+Epoch 1/10, Iteration 677/980, Loss: 0.2713
+Epoch 1/10, Iteration 678/980, Loss: 0.2632
+Epoch 1/10, Iteration 679/980, Loss: 0.2639
+Epoch 1/10, Iteration 680/980, Loss: 0.2639
+Epoch 1/10, Iteration 681/980, Loss: 0.2576
+Epoch 1/10, Iteration 682/980, Loss: 0.2655
+Epoch 1/10, Iteration 683/980, Loss: 0.2689
+Epoch 1/10, Iteration 684/980, Loss: 0.2561
+Epoch 1/10, Iteration 685/980, Loss: 0.2678
+Epoch 1/10, Iteration 686/980, Loss: 0.2692
+Epoch 1/10, Iteration 687/980, Loss: 0.2747
+Epoch 1/10, Iteration 688/980, Loss: 0.2655
+Epoch 1/10, Iteration 689/980, Loss: 0.2762
+Epoch 1/10, Iteration 690/980, Loss: 0.2826
+Epoch 1/10, Iteration 691/980, Loss: 0.2728
+Epoch 1/10, Iteration 692/980, Loss: 0.2648
+Epoch 1/10, Iteration 693/980, Loss: 0.2807
+Epoch 1/10, Iteration 694/980, Loss: 0.2578
+Epoch 1/10, Iteration 695/980, Loss: 0.2657
+Epoch 1/10, Iteration 696/980, Loss: 0.2617
+Epoch 1/10, Iteration 697/980, Loss: 0.2646
+Epoch 1/10, Iteration 698/980, Loss: 0.2782
+Epoch 1/10, Iteration 699/980, Loss: 0.2821
+Epoch 1/10, Iteration 700/980, Loss: 0.2640
+Epoch 1/10, Iteration 701/980, Loss: 0.2692
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 14/20 = 0.7000 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 12/20 = 0.6000 Iteration 301/980
+Batch accuracy: 14/20 = 0.7000 Iteration 401/980
+Batch accuracy: 14/20 = 0.7000 Iteration 501/980
+Batch accuracy: 15/20 = 0.7500 Iteration 601/980
+Batch accuracy: 18/20 = 0.9000 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 8/20 = 0.4000 Iteration 901/980
+Final accuracy: 10604/19598 = 0.5411 or 54.11%
+Epoch 1/10, Iteration 702/980, Loss: 0.2738
+Epoch 1/10, Iteration 703/980, Loss: 0.2585
+Epoch 1/10, Iteration 704/980, Loss: 0.2674
+Epoch 1/10, Iteration 705/980, Loss: 0.2630
+Epoch 1/10, Iteration 706/980, Loss: 0.2554
+Epoch 1/10, Iteration 707/980, Loss: 0.2641
+Epoch 1/10, Iteration 708/980, Loss: 0.2538
+Epoch 1/10, Iteration 709/980, Loss: 0.2642
+Epoch 1/10, Iteration 710/980, Loss: 0.2428
+Epoch 1/10, Iteration 711/980, Loss: 0.2333
+Epoch 1/10, Iteration 712/980, Loss: 0.3926
+Epoch 1/10, Iteration 713/980, Loss: 0.2586
+Epoch 1/10, Iteration 714/980, Loss: 0.2904
+Epoch 1/10, Iteration 715/980, Loss: 0.3363
+Epoch 1/10, Iteration 716/980, Loss: 0.2291
+Epoch 1/10, Iteration 717/980, Loss: 0.2864
+Epoch 1/10, Iteration 718/980, Loss: 0.2628
+Epoch 1/10, Iteration 719/980, Loss: 0.2439
+Epoch 1/10, Iteration 720/980, Loss: 0.2742
+Epoch 1/10, Iteration 721/980, Loss: 0.2657
+Epoch 1/10, Iteration 722/980, Loss: 0.2588
+Epoch 1/10, Iteration 723/980, Loss: 0.2745
+Epoch 1/10, Iteration 724/980, Loss: 0.2757
+Epoch 1/10, Iteration 725/980, Loss: 0.2793
+Epoch 1/10, Iteration 726/980, Loss: 0.2621
+Epoch 1/10, Iteration 727/980, Loss: 0.2262
+Epoch 1/10, Iteration 728/980, Loss: 0.3342
+Epoch 1/10, Iteration 729/980, Loss: 0.2797
+Epoch 1/10, Iteration 730/980, Loss: 0.2671
+Epoch 1/10, Iteration 731/980, Loss: 0.2343
+Epoch 1/10, Iteration 732/980, Loss: 0.2661
+Epoch 1/10, Iteration 733/980, Loss: 0.2763
+Epoch 1/10, Iteration 734/980, Loss: 0.2603
+Epoch 1/10, Iteration 735/980, Loss: 0.2435
+Epoch 1/10, Iteration 736/980, Loss: 0.2745
+Epoch 1/10, Iteration 737/980, Loss: 0.2715
+Epoch 1/10, Iteration 738/980, Loss: 0.2621
+Epoch 1/10, Iteration 739/980, Loss: 0.2608
+Epoch 1/10, Iteration 740/980, Loss: 0.2714
+Epoch 1/10, Iteration 741/980, Loss: 0.3693
+Epoch 1/10, Iteration 742/980, Loss: 0.4073
+Epoch 1/10, Iteration 743/980, Loss: 0.3543
+Epoch 1/10, Iteration 744/980, Loss: 0.3800
+Epoch 1/10, Iteration 745/980, Loss: 0.5008
+Epoch 1/10, Iteration 746/980, Loss: 0.4140
+Epoch 1/10, Iteration 747/980, Loss: 0.3687
+Epoch 1/10, Iteration 748/980, Loss: 0.3801
+Epoch 1/10, Iteration 749/980, Loss: 0.3609
+Epoch 1/10, Iteration 750/980, Loss: 0.3033
+Epoch 1/10, Iteration 751/980, Loss: 0.2913
+Epoch 1/10, Iteration 752/980, Loss: 0.2824
+Epoch 1/10, Iteration 753/980, Loss: 0.2691
+Epoch 1/10, Iteration 754/980, Loss: 0.2590
+Epoch 1/10, Iteration 755/980, Loss: 0.2605
+Epoch 1/10, Iteration 756/980, Loss: 0.2662
+Epoch 1/10, Iteration 757/980, Loss: 0.2834
+Epoch 1/10, Iteration 758/980, Loss: 0.2899
+Epoch 1/10, Iteration 759/980, Loss: 0.2641
+Epoch 1/10, Iteration 760/980, Loss: 0.2810
+Epoch 1/10, Iteration 761/980, Loss: 0.2854
+Epoch 1/10, Iteration 762/980, Loss: 0.3026
+Epoch 1/10, Iteration 763/980, Loss: 0.2725
+Epoch 1/10, Iteration 764/980, Loss: 0.2816
+Epoch 1/10, Iteration 765/980, Loss: 0.2540
+Epoch 1/10, Iteration 766/980, Loss: 0.2728
+Epoch 1/10, Iteration 767/980, Loss: 0.3232
+Epoch 1/10, Iteration 768/980, Loss: 0.4157
+Epoch 1/10, Iteration 769/980, Loss: 0.3203
+Epoch 1/10, Iteration 770/980, Loss: 0.2803
+Epoch 1/10, Iteration 771/980, Loss: 0.2622
+Epoch 1/10, Iteration 772/980, Loss: 0.2700
+Epoch 1/10, Iteration 773/980, Loss: 0.2677
+Epoch 1/10, Iteration 774/980, Loss: 0.2662
+Epoch 1/10, Iteration 775/980, Loss: 0.2673
+Epoch 1/10, Iteration 776/980, Loss: 0.3112
+Epoch 1/10, Iteration 777/980, Loss: 0.3035
+Epoch 1/10, Iteration 778/980, Loss: 0.2739
+Epoch 1/10, Iteration 779/980, Loss: 0.2931
+Epoch 1/10, Iteration 780/980, Loss: 0.2870
+Epoch 1/10, Iteration 781/980, Loss: 0.2683
+Epoch 1/10, Iteration 782/980, Loss: 0.2633
+Epoch 1/10, Iteration 783/980, Loss: 0.2479
+Epoch 1/10, Iteration 784/980, Loss: 0.2584
+Epoch 1/10, Iteration 785/980, Loss: 0.2463
+Epoch 1/10, Iteration 786/980, Loss: 0.2559
+Epoch 1/10, Iteration 787/980, Loss: 0.2908
+Epoch 1/10, Iteration 788/980, Loss: 0.2682
+Epoch 1/10, Iteration 789/980, Loss: 0.2161
+Epoch 1/10, Iteration 790/980, Loss: 0.2865
+Epoch 1/10, Iteration 791/980, Loss: 0.2538
+Epoch 1/10, Iteration 792/980, Loss: 0.2433
+Epoch 1/10, Iteration 793/980, Loss: 0.2553
+Epoch 1/10, Iteration 794/980, Loss: 0.2923
+Epoch 1/10, Iteration 795/980, Loss: 0.2675
+Epoch 1/10, Iteration 796/980, Loss: 0.2484
+Epoch 1/10, Iteration 797/980, Loss: 0.2761
+Epoch 1/10, Iteration 798/980, Loss: 0.2623
+Epoch 1/10, Iteration 799/980, Loss: 0.2748
+Epoch 1/10, Iteration 800/980, Loss: 0.3172
+Epoch 1/10, Iteration 801/980, Loss: 0.2684
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 13/20 = 0.6500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 14/20 = 0.7000 Iteration 301/980
+Batch accuracy: 8/20 = 0.4000 Iteration 401/980
+Batch accuracy: 15/20 = 0.7500 Iteration 501/980
+Batch accuracy: 9/20 = 0.4500 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 13/20 = 0.6500 Iteration 901/980
+Final accuracy: 11146/19598 = 0.5687 or 56.87%
+Epoch 1/10, Iteration 802/980, Loss: 0.2684
+Epoch 1/10, Iteration 803/980, Loss: 0.2769
+Epoch 1/10, Iteration 804/980, Loss: 0.2680
+Epoch 1/10, Iteration 805/980, Loss: 0.2850
+Epoch 1/10, Iteration 806/980, Loss: 0.2702
+Epoch 1/10, Iteration 807/980, Loss: 0.2806
+Epoch 1/10, Iteration 808/980, Loss: 0.2809
+Epoch 1/10, Iteration 809/980, Loss: 0.2743
+Epoch 1/10, Iteration 810/980, Loss: 0.2970
+Epoch 1/10, Iteration 811/980, Loss: 0.3082
+Epoch 1/10, Iteration 812/980, Loss: 0.2764
+Epoch 1/10, Iteration 813/980, Loss: 0.2702
+Epoch 1/10, Iteration 814/980, Loss: 0.2160
+Epoch 1/10, Iteration 815/980, Loss: 0.2462
+Epoch 1/10, Iteration 816/980, Loss: 0.3141
+Epoch 1/10, Iteration 817/980, Loss: 0.2947
+Epoch 1/10, Iteration 818/980, Loss: 0.2745
+Epoch 1/10, Iteration 819/980, Loss: 0.2964
+Epoch 1/10, Iteration 820/980, Loss: 0.2422
+Epoch 1/10, Iteration 821/980, Loss: 0.2867
+Epoch 1/10, Iteration 822/980, Loss: 0.2604
+Epoch 1/10, Iteration 823/980, Loss: 0.2893
+Epoch 1/10, Iteration 824/980, Loss: 0.2952
+Epoch 1/10, Iteration 825/980, Loss: 0.3239
+Epoch 1/10, Iteration 826/980, Loss: 0.2659
+Epoch 1/10, Iteration 827/980, Loss: 0.2669
+Epoch 1/10, Iteration 828/980, Loss: 0.2590
+Epoch 1/10, Iteration 829/980, Loss: 0.2654
+Epoch 1/10, Iteration 830/980, Loss: 0.2639
+Epoch 1/10, Iteration 831/980, Loss: 0.2909
+Epoch 1/10, Iteration 832/980, Loss: 0.2681
+Epoch 1/10, Iteration 833/980, Loss: 0.2742
+Epoch 1/10, Iteration 834/980, Loss: 0.2692
+Epoch 1/10, Iteration 835/980, Loss: 0.2720
+Epoch 1/10, Iteration 836/980, Loss: 0.2729
+Epoch 1/10, Iteration 837/980, Loss: 0.2622
+Epoch 1/10, Iteration 838/980, Loss: 0.2686
+Epoch 1/10, Iteration 839/980, Loss: 0.2605
+Epoch 1/10, Iteration 840/980, Loss: 0.2756
+Epoch 1/10, Iteration 841/980, Loss: 0.2677
+Epoch 1/10, Iteration 842/980, Loss: 0.2691
+Epoch 1/10, Iteration 843/980, Loss: 0.2591
+Epoch 1/10, Iteration 844/980, Loss: 0.2632
+Epoch 1/10, Iteration 845/980, Loss: 0.2790
+Epoch 1/10, Iteration 846/980, Loss: 0.2578
+Epoch 1/10, Iteration 847/980, Loss: 0.3094
+Epoch 1/10, Iteration 848/980, Loss: 0.2699
+Epoch 1/10, Iteration 849/980, Loss: 0.2594
+Epoch 1/10, Iteration 850/980, Loss: 0.2851
+Epoch 1/10, Iteration 851/980, Loss: 0.2849
+Epoch 1/10, Iteration 852/980, Loss: 0.2661
+Epoch 1/10, Iteration 853/980, Loss: 0.2690
+Epoch 1/10, Iteration 854/980, Loss: 0.2675
+Epoch 1/10, Iteration 855/980, Loss: 0.2737
+Epoch 1/10, Iteration 856/980, Loss: 0.2662
+Epoch 1/10, Iteration 857/980, Loss: 0.2892
+Epoch 1/10, Iteration 858/980, Loss: 0.2605
+Epoch 1/10, Iteration 859/980, Loss: 0.2582
+Epoch 1/10, Iteration 860/980, Loss: 0.2942
+Epoch 1/10, Iteration 861/980, Loss: 0.2730
+Epoch 1/10, Iteration 862/980, Loss: 0.2673
+Epoch 1/10, Iteration 863/980, Loss: 0.2668
+Epoch 1/10, Iteration 864/980, Loss: 0.2764
+Epoch 1/10, Iteration 865/980, Loss: 0.2970
+Epoch 1/10, Iteration 866/980, Loss: 0.2768
+Epoch 1/10, Iteration 867/980, Loss: 0.2656
+Epoch 1/10, Iteration 868/980, Loss: 0.2689
+Epoch 1/10, Iteration 869/980, Loss: 0.2817
+Epoch 1/10, Iteration 870/980, Loss: 0.2705
+Epoch 1/10, Iteration 871/980, Loss: 0.2888
+Epoch 1/10, Iteration 872/980, Loss: 0.2556
+Epoch 1/10, Iteration 873/980, Loss: 0.2771
+Epoch 1/10, Iteration 874/980, Loss: 0.2719
+Epoch 1/10, Iteration 875/980, Loss: 0.2692
+Epoch 1/10, Iteration 876/980, Loss: 0.2696
+Epoch 1/10, Iteration 877/980, Loss: 0.2636
+Epoch 1/10, Iteration 878/980, Loss: 0.2593
+Epoch 1/10, Iteration 879/980, Loss: 0.2656
+Epoch 1/10, Iteration 880/980, Loss: 0.2698
+Epoch 1/10, Iteration 881/980, Loss: 0.3023
+Epoch 1/10, Iteration 882/980, Loss: 0.2594
+Epoch 1/10, Iteration 883/980, Loss: 0.2574
+Epoch 1/10, Iteration 884/980, Loss: 0.2719
+Epoch 1/10, Iteration 885/980, Loss: 0.2881
+Epoch 1/10, Iteration 886/980, Loss: 0.2777
+Epoch 1/10, Iteration 887/980, Loss: 0.2577
+Epoch 1/10, Iteration 888/980, Loss: 0.2867
+Epoch 1/10, Iteration 889/980, Loss: 0.3004
+Epoch 1/10, Iteration 890/980, Loss: 0.2672
+Epoch 1/10, Iteration 891/980, Loss: 0.2573
+Epoch 1/10, Iteration 892/980, Loss: 0.2474
+Epoch 1/10, Iteration 893/980, Loss: 0.2635
+Epoch 1/10, Iteration 894/980, Loss: 0.2658
+Epoch 1/10, Iteration 895/980, Loss: 0.2551
+Epoch 1/10, Iteration 896/980, Loss: 0.2670
+Epoch 1/10, Iteration 897/980, Loss: 0.2563
+Epoch 1/10, Iteration 898/980, Loss: 0.2659
+Epoch 1/10, Iteration 899/980, Loss: 0.2645
+Epoch 1/10, Iteration 900/980, Loss: 0.2785
+Epoch 1/10, Iteration 901/980, Loss: 0.2659
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 14/20 = 0.7000 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 12/20 = 0.6000 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 13/20 = 0.6500 Iteration 901/980
+Final accuracy: 10967/19598 = 0.5596 or 55.96%
+Epoch 1/10, Iteration 902/980, Loss: 0.2660
+Epoch 1/10, Iteration 903/980, Loss: 0.2640
+Epoch 1/10, Iteration 904/980, Loss: 0.2712
+Epoch 1/10, Iteration 905/980, Loss: 0.2639
+Epoch 1/10, Iteration 906/980, Loss: 0.2641
+Epoch 1/10, Iteration 907/980, Loss: 0.2856
+Epoch 1/10, Iteration 908/980, Loss: 0.2501
+Epoch 1/10, Iteration 909/980, Loss: 0.2455
+Epoch 1/10, Iteration 910/980, Loss: 0.3130
+Epoch 1/10, Iteration 911/980, Loss: 0.2783
+Epoch 1/10, Iteration 912/980, Loss: 0.2423
+Epoch 1/10, Iteration 913/980, Loss: 0.2514
+Epoch 1/10, Iteration 914/980, Loss: 0.2622
+Epoch 1/10, Iteration 915/980, Loss: 0.2786
+Epoch 1/10, Iteration 916/980, Loss: 0.3119
+Epoch 1/10, Iteration 917/980, Loss: 0.2592
+Epoch 1/10, Iteration 918/980, Loss: 0.2675
+Epoch 1/10, Iteration 919/980, Loss: 0.2339
+Epoch 1/10, Iteration 920/980, Loss: 0.2816
+Epoch 1/10, Iteration 921/980, Loss: 0.2551
+Epoch 1/10, Iteration 922/980, Loss: 0.2582
+Epoch 1/10, Iteration 923/980, Loss: 0.2968
+Epoch 1/10, Iteration 924/980, Loss: 0.2855
+Epoch 1/10, Iteration 925/980, Loss: 0.2673
+Epoch 1/10, Iteration 926/980, Loss: 0.2352
+Epoch 1/10, Iteration 927/980, Loss: 0.2427
+Epoch 1/10, Iteration 928/980, Loss: 0.2826
+Epoch 1/10, Iteration 929/980, Loss: 0.3185
+Epoch 1/10, Iteration 930/980, Loss: 0.2571
+Epoch 1/10, Iteration 931/980, Loss: 0.2627
+Epoch 1/10, Iteration 932/980, Loss: 0.2728
+Epoch 1/10, Iteration 933/980, Loss: 0.2844
+Epoch 1/10, Iteration 934/980, Loss: 0.2570
+Epoch 1/10, Iteration 935/980, Loss: 0.2582
+Epoch 1/10, Iteration 936/980, Loss: 0.2423
+Epoch 1/10, Iteration 937/980, Loss: 0.2595
+Epoch 1/10, Iteration 938/980, Loss: 0.2532
+Epoch 1/10, Iteration 939/980, Loss: 0.2640
+Epoch 1/10, Iteration 940/980, Loss: 0.2645
+Epoch 1/10, Iteration 941/980, Loss: 0.3021
+Epoch 1/10, Iteration 942/980, Loss: 0.2501
+Epoch 1/10, Iteration 943/980, Loss: 0.2622
+Epoch 1/10, Iteration 944/980, Loss: 0.2593
+Epoch 1/10, Iteration 945/980, Loss: 0.2492
+Epoch 1/10, Iteration 946/980, Loss: 0.2640
+Epoch 1/10, Iteration 947/980, Loss: 0.2580
+Epoch 1/10, Iteration 948/980, Loss: 0.2688
+Epoch 1/10, Iteration 949/980, Loss: 0.2755
+Epoch 1/10, Iteration 950/980, Loss: 0.2911
+Epoch 1/10, Iteration 951/980, Loss: 0.2654
+Epoch 1/10, Iteration 952/980, Loss: 0.2750
+Epoch 1/10, Iteration 953/980, Loss: 0.2441
+Epoch 1/10, Iteration 954/980, Loss: 0.2812
+Epoch 1/10, Iteration 955/980, Loss: 0.2847
+Epoch 1/10, Iteration 956/980, Loss: 0.2565
+Epoch 1/10, Iteration 957/980, Loss: 0.2572
+Epoch 1/10, Iteration 958/980, Loss: 0.2917
+Epoch 1/10, Iteration 959/980, Loss: 0.2459
+Epoch 1/10, Iteration 960/980, Loss: 0.2607
+Epoch 1/10, Iteration 961/980, Loss: 0.2590
+Epoch 1/10, Iteration 962/980, Loss: 0.2634
+Epoch 1/10, Iteration 963/980, Loss: 0.2770
+Epoch 1/10, Iteration 964/980, Loss: 0.2675
+Epoch 1/10, Iteration 965/980, Loss: 0.2663
+Epoch 1/10, Iteration 966/980, Loss: 0.2605
+Epoch 1/10, Iteration 967/980, Loss: 0.2672
+Epoch 1/10, Iteration 968/980, Loss: 0.2683
+Epoch 1/10, Iteration 969/980, Loss: 0.2560
+Epoch 1/10, Iteration 970/980, Loss: 0.2574
+Epoch 1/10, Iteration 971/980, Loss: 0.2536
+Epoch 1/10, Iteration 972/980, Loss: 0.2516
+Epoch 1/10, Iteration 973/980, Loss: 0.2799
+Epoch 1/10, Iteration 974/980, Loss: 0.2605
+Epoch 1/10, Iteration 975/980, Loss: 0.2620
+Epoch 1/10, Iteration 976/980, Loss: 0.2675
+Epoch 1/10, Iteration 977/980, Loss: 0.2551
+Epoch 1/10, Iteration 978/980, Loss: 0.2701
+Epoch 1/10, Iteration 979/980, Loss: 0.2576
+Epoch 1/10, Iteration 980/980, Loss: 0.2584
+Validating epoch 1/10
+Batch accuracy: 8/20 = 0.4000 Iteration 1/980
+Batch accuracy: 13/20 = 0.6500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 14/20 = 0.7000 Iteration 401/980
+Batch accuracy: 15/20 = 0.7500 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 13/20 = 0.6500 Iteration 701/980
+Batch accuracy: 9/20 = 0.4500 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 17/20 = 0.8500 Iteration 1/980
+Batch accuracy: 10/20 = 0.5000 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 15/20 = 0.7500 Iteration 301/980
+Batch accuracy: 8/20 = 0.4000 Iteration 401/980
+Batch accuracy: 11/20 = 0.5500 Iteration 501/980
+Batch accuracy: 13/20 = 0.6500 Iteration 601/980
+Batch accuracy: 12/20 = 0.6000 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 10/20 = 0.5000 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 13/20 = 0.6500 Iteration 1/980
+Batch accuracy: 6/20 = 0.3000 Iteration 101/980
+Batch accuracy: 13/20 = 0.6500 Iteration 201/980
+Batch accuracy: 12/20 = 0.6000 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 10/20 = 0.5000 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 9/20 = 0.4500 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 13/20 = 0.6500 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 12/20 = 0.6000 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 10/20 = 0.5000 Iteration 501/980
+Batch accuracy: 13/20 = 0.6500 Iteration 601/980
+Batch accuracy: 12/20 = 0.6000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 14/20 = 0.7000 Iteration 1/980
+Batch accuracy: 12/20 = 0.6000 Iteration 101/980
+Batch accuracy: 13/20 = 0.6500 Iteration 201/980
+Batch accuracy: 15/20 = 0.7500 Iteration 301/980
+Batch accuracy: 16/20 = 0.8000 Iteration 401/980
+Batch accuracy: 8/20 = 0.4000 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 16/20 = 0.8000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 13/20 = 0.6500 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 14/20 = 0.7000 Iteration 101/980
+Batch accuracy: 8/20 = 0.4000 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 14/20 = 0.7000 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 9/20 = 0.4500 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 14/20 = 0.7000 Iteration 201/980
+Batch accuracy: 13/20 = 0.6500 Iteration 301/980
+Batch accuracy: 12/20 = 0.6000 Iteration 401/980
+Batch accuracy: 9/20 = 0.4500 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 13/20 = 0.6500 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 12/20 = 0.6000 Iteration 101/980
+Batch accuracy: 10/20 = 0.5000 Iteration 201/980
+Batch accuracy: 9/20 = 0.4500 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 9/20 = 0.4500 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 14/20 = 0.7000 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 13/20 = 0.6500 Iteration 1/980
+Batch accuracy: 13/20 = 0.6500 Iteration 101/980
+Batch accuracy: 10/20 = 0.5000 Iteration 201/980
+Batch accuracy: 5/20 = 0.2500 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 7/20 = 0.3500 Iteration 501/980
+Batch accuracy: 14/20 = 0.7000 Iteration 601/980
+Batch accuracy: 8/20 = 0.4000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 10/20 = 0.5000 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 10/20 = 0.5000 Iteration 101/980
+Batch accuracy: 13/20 = 0.6500 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 13/20 = 0.6500 Iteration 401/980
+Batch accuracy: 11/20 = 0.5500 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 10934/19598 = 0.5579 or 55.79%
+Epoch 1/10, Training Loss: 0.2717, Validation Loss: 0.2626
+Model saved with validation loss: 0.2626
+Training epoch 2/10
+Epoch 2/10, Iteration 1/980, Loss: 0.2936
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 12/20 = 0.6000 Iteration 101/980
+Batch accuracy: 5/20 = 0.2500 Iteration 201/980
+Batch accuracy: 13/20 = 0.6500 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 13/20 = 0.6500 Iteration 601/980
+Batch accuracy: 4/20 = 0.2000 Iteration 701/980
+Batch accuracy: 7/20 = 0.3500 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 10913/19598 = 0.5568 or 55.68%
+Epoch 2/10, Iteration 2/980, Loss: 0.2438
+Epoch 2/10, Iteration 3/980, Loss: 0.2664
+Epoch 2/10, Iteration 4/980, Loss: 0.2622
+Epoch 2/10, Iteration 5/980, Loss: 0.2563
+Epoch 2/10, Iteration 6/980, Loss: 0.2450
+Epoch 2/10, Iteration 7/980, Loss: 0.2520
+Epoch 2/10, Iteration 8/980, Loss: 0.2681
+Epoch 2/10, Iteration 9/980, Loss: 0.2752
+Epoch 2/10, Iteration 10/980, Loss: 0.2619
+Epoch 2/10, Iteration 11/980, Loss: 0.2492
+Epoch 2/10, Iteration 12/980, Loss: 0.2617
+Epoch 2/10, Iteration 13/980, Loss: 0.2701
+Epoch 2/10, Iteration 14/980, Loss: 0.2723
+Epoch 2/10, Iteration 15/980, Loss: 0.2847
+Epoch 2/10, Iteration 16/980, Loss: 0.2768
+Epoch 2/10, Iteration 17/980, Loss: 0.3012
+Epoch 2/10, Iteration 18/980, Loss: 0.2619
+Epoch 2/10, Iteration 19/980, Loss: 0.2692
+Epoch 2/10, Iteration 20/980, Loss: 0.2509
+Epoch 2/10, Iteration 21/980, Loss: 0.2760
+Epoch 2/10, Iteration 22/980, Loss: 0.2971
+Epoch 2/10, Iteration 23/980, Loss: 0.2710
+Epoch 2/10, Iteration 24/980, Loss: 0.2692
+Epoch 2/10, Iteration 25/980, Loss: 0.2750
+Epoch 2/10, Iteration 26/980, Loss: 0.2555
+Epoch 2/10, Iteration 27/980, Loss: 0.2601
+Epoch 2/10, Iteration 28/980, Loss: 0.2711
+Epoch 2/10, Iteration 29/980, Loss: 0.2614
+Epoch 2/10, Iteration 30/980, Loss: 0.2603
+Epoch 2/10, Iteration 31/980, Loss: 0.2718
+Epoch 2/10, Iteration 32/980, Loss: 0.2804
+Epoch 2/10, Iteration 33/980, Loss: 0.2478
+Epoch 2/10, Iteration 34/980, Loss: 0.2669
+Epoch 2/10, Iteration 35/980, Loss: 0.2772
+Epoch 2/10, Iteration 36/980, Loss: 0.2484
+Epoch 2/10, Iteration 37/980, Loss: 0.2556
+Epoch 2/10, Iteration 38/980, Loss: 0.2663
+Epoch 2/10, Iteration 39/980, Loss: 0.2576
+Epoch 2/10, Iteration 40/980, Loss: 0.2641
+Epoch 2/10, Iteration 41/980, Loss: 0.2642
+Epoch 2/10, Iteration 42/980, Loss: 0.2553
+Epoch 2/10, Iteration 43/980, Loss: 0.2722
+Epoch 2/10, Iteration 44/980, Loss: 0.2678
+Epoch 2/10, Iteration 45/980, Loss: 0.2608
+Epoch 2/10, Iteration 46/980, Loss: 0.2616
+Epoch 2/10, Iteration 47/980, Loss: 0.2532
+Epoch 2/10, Iteration 48/980, Loss: 0.2920
+Epoch 2/10, Iteration 49/980, Loss: 0.2600
+Epoch 2/10, Iteration 50/980, Loss: 0.2618
+Epoch 2/10, Iteration 51/980, Loss: 0.2571
+Epoch 2/10, Iteration 52/980, Loss: 0.2583
+Epoch 2/10, Iteration 53/980, Loss: 0.2491
+Epoch 2/10, Iteration 54/980, Loss: 0.2698
+Epoch 2/10, Iteration 55/980, Loss: 0.2400
+Epoch 2/10, Iteration 56/980, Loss: 0.2294
+Epoch 2/10, Iteration 57/980, Loss: 0.2881
+Epoch 2/10, Iteration 58/980, Loss: 0.2754
+Epoch 2/10, Iteration 59/980, Loss: 0.2317
+Epoch 2/10, Iteration 60/980, Loss: 0.2694
+Epoch 2/10, Iteration 61/980, Loss: 0.2782
+Epoch 2/10, Iteration 62/980, Loss: 0.2877
+Epoch 2/10, Iteration 63/980, Loss: 0.2552
+Epoch 2/10, Iteration 64/980, Loss: 0.2591
+Epoch 2/10, Iteration 65/980, Loss: 0.2518
+Epoch 2/10, Iteration 66/980, Loss: 0.2652
+Epoch 2/10, Iteration 67/980, Loss: 0.2577
+Epoch 2/10, Iteration 68/980, Loss: 0.2494
+Epoch 2/10, Iteration 69/980, Loss: 0.2654
+Epoch 2/10, Iteration 70/980, Loss: 0.2776
+Epoch 2/10, Iteration 71/980, Loss: 0.2544
+Epoch 2/10, Iteration 72/980, Loss: 0.2595
+Epoch 2/10, Iteration 73/980, Loss: 0.2547
+Epoch 2/10, Iteration 74/980, Loss: 0.2494
+Epoch 2/10, Iteration 75/980, Loss: 0.2502
+Epoch 2/10, Iteration 76/980, Loss: 0.2544
+Epoch 2/10, Iteration 77/980, Loss: 0.2577
+Epoch 2/10, Iteration 78/980, Loss: 0.2702
+Epoch 2/10, Iteration 79/980, Loss: 0.2569
+Epoch 2/10, Iteration 80/980, Loss: 0.2626
+Epoch 2/10, Iteration 81/980, Loss: 0.2437
+Epoch 2/10, Iteration 82/980, Loss: 0.2740
+Epoch 2/10, Iteration 83/980, Loss: 0.2854
+Epoch 2/10, Iteration 84/980, Loss: 0.2661
+Epoch 2/10, Iteration 85/980, Loss: 0.2630
+Epoch 2/10, Iteration 86/980, Loss: 0.2566
+Epoch 2/10, Iteration 87/980, Loss: 0.2531
+Epoch 2/10, Iteration 88/980, Loss: 0.2655
+Epoch 2/10, Iteration 89/980, Loss: 0.2671
+Epoch 2/10, Iteration 90/980, Loss: 0.2560
+Epoch 2/10, Iteration 91/980, Loss: 0.2652
+Epoch 2/10, Iteration 92/980, Loss: 0.2537
+Epoch 2/10, Iteration 93/980, Loss: 0.2580
+Epoch 2/10, Iteration 94/980, Loss: 0.2616
+Epoch 2/10, Iteration 95/980, Loss: 0.2586
+Epoch 2/10, Iteration 96/980, Loss: 0.2566
+Epoch 2/10, Iteration 97/980, Loss: 0.2747
+Epoch 2/10, Iteration 98/980, Loss: 0.2430
+Epoch 2/10, Iteration 99/980, Loss: 0.2754
+Epoch 2/10, Iteration 100/980, Loss: 0.2687
+Epoch 2/10, Iteration 101/980, Loss: 0.2567
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 10/20 = 0.5000 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 10/20 = 0.5000 Iteration 301/980
+Batch accuracy: 12/20 = 0.6000 Iteration 401/980
+Batch accuracy: 9/20 = 0.4500 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 12/20 = 0.6000 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 13/20 = 0.6500 Iteration 901/980
+Final accuracy: 10382/19598 = 0.5297 or 52.97%
+Epoch 2/10, Iteration 102/980, Loss: 0.2756
+Epoch 2/10, Iteration 103/980, Loss: 0.2703
+Epoch 2/10, Iteration 104/980, Loss: 0.2691
+Epoch 2/10, Iteration 105/980, Loss: 0.2533
+Epoch 2/10, Iteration 106/980, Loss: 0.2665
+Epoch 2/10, Iteration 107/980, Loss: 0.2734
+Epoch 2/10, Iteration 108/980, Loss: 0.2607
+Epoch 2/10, Iteration 109/980, Loss: 0.2576
+Epoch 2/10, Iteration 110/980, Loss: 0.2568
+Epoch 2/10, Iteration 111/980, Loss: 0.2738
+Epoch 2/10, Iteration 112/980, Loss: 0.2640
+Epoch 2/10, Iteration 113/980, Loss: 0.2465
+Epoch 2/10, Iteration 114/980, Loss: 0.2430
+Epoch 2/10, Iteration 115/980, Loss: 0.2650
+Epoch 2/10, Iteration 116/980, Loss: 0.2636
+Epoch 2/10, Iteration 117/980, Loss: 0.2562
+Epoch 2/10, Iteration 118/980, Loss: 0.2575
+Epoch 2/10, Iteration 119/980, Loss: 0.2466
+Epoch 2/10, Iteration 120/980, Loss: 0.2586
+Epoch 2/10, Iteration 121/980, Loss: 0.2620
+Epoch 2/10, Iteration 122/980, Loss: 0.2685
+Epoch 2/10, Iteration 123/980, Loss: 0.2582
+Epoch 2/10, Iteration 124/980, Loss: 0.2601
+Epoch 2/10, Iteration 125/980, Loss: 0.2590
+Epoch 2/10, Iteration 126/980, Loss: 0.2579
+Epoch 2/10, Iteration 127/980, Loss: 0.2520
+Epoch 2/10, Iteration 128/980, Loss: 0.2618
+Epoch 2/10, Iteration 129/980, Loss: 0.2528
+Epoch 2/10, Iteration 130/980, Loss: 0.2729
+Epoch 2/10, Iteration 131/980, Loss: 0.2588
+Epoch 2/10, Iteration 132/980, Loss: 0.3092
+Epoch 2/10, Iteration 133/980, Loss: 0.2536
+Epoch 2/10, Iteration 134/980, Loss: 0.2490
+Epoch 2/10, Iteration 135/980, Loss: 0.2490
+Epoch 2/10, Iteration 136/980, Loss: 0.2667
+Epoch 2/10, Iteration 137/980, Loss: 0.2679
+Epoch 2/10, Iteration 138/980, Loss: 0.2667
+Epoch 2/10, Iteration 139/980, Loss: 0.2587
+Epoch 2/10, Iteration 140/980, Loss: 0.2590
+Epoch 2/10, Iteration 141/980, Loss: 0.2492
+Epoch 2/10, Iteration 142/980, Loss: 0.2621
+Epoch 2/10, Iteration 143/980, Loss: 0.2556
+Epoch 2/10, Iteration 144/980, Loss: 0.2593
+Epoch 2/10, Iteration 145/980, Loss: 0.2628
+Epoch 2/10, Iteration 146/980, Loss: 0.2575
+Epoch 2/10, Iteration 147/980, Loss: 0.2752
+Epoch 2/10, Iteration 148/980, Loss: 0.2545
+Epoch 2/10, Iteration 149/980, Loss: 0.2320
+Epoch 2/10, Iteration 150/980, Loss: 0.2718
+Epoch 2/10, Iteration 151/980, Loss: 0.2521
+Epoch 2/10, Iteration 152/980, Loss: 0.2451
+Epoch 2/10, Iteration 153/980, Loss: 0.2559
+Epoch 2/10, Iteration 154/980, Loss: 0.2773
+Epoch 2/10, Iteration 155/980, Loss: 0.2555
+Epoch 2/10, Iteration 156/980, Loss: 0.2562
+Epoch 2/10, Iteration 157/980, Loss: 0.2711
+Epoch 2/10, Iteration 158/980, Loss: 0.2576
+Epoch 2/10, Iteration 159/980, Loss: 0.2554
+Epoch 2/10, Iteration 160/980, Loss: 0.2514
+Epoch 2/10, Iteration 161/980, Loss: 0.2646
+Epoch 2/10, Iteration 162/980, Loss: 0.2615
+Epoch 2/10, Iteration 163/980, Loss: 0.2423
+Epoch 2/10, Iteration 164/980, Loss: 0.2717
+Epoch 2/10, Iteration 165/980, Loss: 0.2699
+Epoch 2/10, Iteration 166/980, Loss: 0.2527
+Epoch 2/10, Iteration 167/980, Loss: 0.2686
+Epoch 2/10, Iteration 168/980, Loss: 0.2659
+Epoch 2/10, Iteration 169/980, Loss: 0.3109
+Epoch 2/10, Iteration 170/980, Loss: 0.2666
+Epoch 2/10, Iteration 171/980, Loss: 0.3022
+Epoch 2/10, Iteration 172/980, Loss: 0.2662
+Epoch 2/10, Iteration 173/980, Loss: 0.2621
+Epoch 2/10, Iteration 174/980, Loss: 0.2572
+Epoch 2/10, Iteration 175/980, Loss: 0.2596
+Epoch 2/10, Iteration 176/980, Loss: 0.2687
+Epoch 2/10, Iteration 177/980, Loss: 0.2642
+Epoch 2/10, Iteration 178/980, Loss: 0.2609
+Epoch 2/10, Iteration 179/980, Loss: 0.2663
+Epoch 2/10, Iteration 180/980, Loss: 0.2538
+Epoch 2/10, Iteration 181/980, Loss: 0.2577
+Epoch 2/10, Iteration 182/980, Loss: 0.2563
+Epoch 2/10, Iteration 183/980, Loss: 0.2559
+Epoch 2/10, Iteration 184/980, Loss: 0.2626
+Epoch 2/10, Iteration 185/980, Loss: 0.2705
+Epoch 2/10, Iteration 186/980, Loss: 0.2658
+Epoch 2/10, Iteration 187/980, Loss: 0.2550
+Epoch 2/10, Iteration 188/980, Loss: 0.2506
+Epoch 2/10, Iteration 189/980, Loss: 0.2799
+Epoch 2/10, Iteration 190/980, Loss: 0.2581
+Epoch 2/10, Iteration 191/980, Loss: 0.2464
+Epoch 2/10, Iteration 192/980, Loss: 0.2590
+Epoch 2/10, Iteration 193/980, Loss: 0.2699
+Epoch 2/10, Iteration 194/980, Loss: 0.2870
+Epoch 2/10, Iteration 195/980, Loss: 0.2492
+Epoch 2/10, Iteration 196/980, Loss: 0.2748
+Epoch 2/10, Iteration 197/980, Loss: 0.2714
+Epoch 2/10, Iteration 198/980, Loss: 0.2596
+Epoch 2/10, Iteration 199/980, Loss: 0.2644
+Epoch 2/10, Iteration 200/980, Loss: 0.2581
+Epoch 2/10, Iteration 201/980, Loss: 0.2648
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 12/20 = 0.6000 Iteration 101/980
+Batch accuracy: 13/20 = 0.6500 Iteration 201/980
+Batch accuracy: 9/20 = 0.4500 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 6/20 = 0.3000 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 10513/19598 = 0.5364 or 53.64%
+Epoch 2/10, Iteration 202/980, Loss: 0.2640
+Epoch 2/10, Iteration 203/980, Loss: 0.2669
+Epoch 2/10, Iteration 204/980, Loss: 0.2684
+Epoch 2/10, Iteration 205/980, Loss: 0.2600
+Epoch 2/10, Iteration 206/980, Loss: 0.2607
+Epoch 2/10, Iteration 207/980, Loss: 0.2604
+Epoch 2/10, Iteration 208/980, Loss: 0.2455
+Epoch 2/10, Iteration 209/980, Loss: 0.2643
+Epoch 2/10, Iteration 210/980, Loss: 0.2553
+Epoch 2/10, Iteration 211/980, Loss: 0.2687
+Epoch 2/10, Iteration 212/980, Loss: 0.2541
+Epoch 2/10, Iteration 213/980, Loss: 0.2876
+Epoch 2/10, Iteration 214/980, Loss: 0.2657
+Epoch 2/10, Iteration 215/980, Loss: 0.2636
+Epoch 2/10, Iteration 216/980, Loss: 0.2888
+Epoch 2/10, Iteration 217/980, Loss: 0.2472
+Epoch 2/10, Iteration 218/980, Loss: 0.2761
+Epoch 2/10, Iteration 219/980, Loss: 0.2569
+Epoch 2/10, Iteration 220/980, Loss: 0.2597
+Epoch 2/10, Iteration 221/980, Loss: 0.2577
+Epoch 2/10, Iteration 222/980, Loss: 0.2584
+Epoch 2/10, Iteration 223/980, Loss: 0.2544
+Epoch 2/10, Iteration 224/980, Loss: 0.2620
+Epoch 2/10, Iteration 225/980, Loss: 0.2739
+Epoch 2/10, Iteration 226/980, Loss: 0.2582
+Epoch 2/10, Iteration 227/980, Loss: 0.2552
+Epoch 2/10, Iteration 228/980, Loss: 0.2827
+Epoch 2/10, Iteration 229/980, Loss: 0.2555
+Epoch 2/10, Iteration 230/980, Loss: 0.2486
+Epoch 2/10, Iteration 231/980, Loss: 0.2677
+Epoch 2/10, Iteration 232/980, Loss: 0.2570
+Epoch 2/10, Iteration 233/980, Loss: 0.2485
+Epoch 2/10, Iteration 234/980, Loss: 0.2558
+Epoch 2/10, Iteration 235/980, Loss: 0.2514
+Epoch 2/10, Iteration 236/980, Loss: 0.2337
+Epoch 2/10, Iteration 237/980, Loss: 0.2389
+Epoch 2/10, Iteration 238/980, Loss: 0.2742
+Epoch 2/10, Iteration 239/980, Loss: 0.2550
+Epoch 2/10, Iteration 240/980, Loss: 0.2630
+Epoch 2/10, Iteration 241/980, Loss: 0.2569
+Epoch 2/10, Iteration 242/980, Loss: 0.3026
+Epoch 2/10, Iteration 243/980, Loss: 0.2527
+Epoch 2/10, Iteration 244/980, Loss: 0.2874
+Epoch 2/10, Iteration 245/980, Loss: 0.2699
+Epoch 2/10, Iteration 246/980, Loss: 0.2772
+Epoch 2/10, Iteration 247/980, Loss: 0.2932
+Epoch 2/10, Iteration 248/980, Loss: 0.2697
+Epoch 2/10, Iteration 249/980, Loss: 0.2694
+Epoch 2/10, Iteration 250/980, Loss: 0.2820
+Epoch 2/10, Iteration 251/980, Loss: 0.2886
+Epoch 2/10, Iteration 252/980, Loss: 0.2757
+Epoch 2/10, Iteration 253/980, Loss: 0.2892
+Epoch 2/10, Iteration 254/980, Loss: 0.2910
+Epoch 2/10, Iteration 255/980, Loss: 0.2573
+Epoch 2/10, Iteration 256/980, Loss: 0.2970
+Epoch 2/10, Iteration 257/980, Loss: 0.2767
+Epoch 2/10, Iteration 258/980, Loss: 0.2578
+Epoch 2/10, Iteration 259/980, Loss: 0.2618
+Epoch 2/10, Iteration 260/980, Loss: 0.2754
+Epoch 2/10, Iteration 261/980, Loss: 0.2675
+Epoch 2/10, Iteration 262/980, Loss: 0.2565
+Epoch 2/10, Iteration 263/980, Loss: 0.2776
+Epoch 2/10, Iteration 264/980, Loss: 0.2855
+Epoch 2/10, Iteration 265/980, Loss: 0.3108
+Epoch 2/10, Iteration 266/980, Loss: 0.2720
+Epoch 2/10, Iteration 267/980, Loss: 0.2979
+Epoch 2/10, Iteration 268/980, Loss: 0.2858
+Epoch 2/10, Iteration 269/980, Loss: 0.3281
+Epoch 2/10, Iteration 270/980, Loss: 0.2833
+Epoch 2/10, Iteration 271/980, Loss: 0.3281
+Epoch 2/10, Iteration 272/980, Loss: 0.3138
+Epoch 2/10, Iteration 273/980, Loss: 0.3378
+Epoch 2/10, Iteration 274/980, Loss: 0.4020
+Epoch 2/10, Iteration 275/980, Loss: 0.3566
+Epoch 2/10, Iteration 276/980, Loss: 0.4266
+Epoch 2/10, Iteration 277/980, Loss: 0.2806
+Epoch 2/10, Iteration 278/980, Loss: 0.2047
+Epoch 2/10, Iteration 279/980, Loss: 0.3371
+Epoch 2/10, Iteration 280/980, Loss: 0.2858
+Epoch 2/10, Iteration 281/980, Loss: 0.2797
+Epoch 2/10, Iteration 282/980, Loss: 0.2887
+Epoch 2/10, Iteration 283/980, Loss: 0.2720
+Epoch 2/10, Iteration 284/980, Loss: 0.3097
+Epoch 2/10, Iteration 285/980, Loss: 0.2714
+Epoch 2/10, Iteration 286/980, Loss: 0.2855
+Epoch 2/10, Iteration 287/980, Loss: 0.2671
+Epoch 2/10, Iteration 288/980, Loss: 0.3115
+Epoch 2/10, Iteration 289/980, Loss: 0.2442
+Epoch 2/10, Iteration 290/980, Loss: 0.2795
+Epoch 2/10, Iteration 291/980, Loss: 0.2578
+Epoch 2/10, Iteration 292/980, Loss: 0.2262
+Epoch 2/10, Iteration 293/980, Loss: 0.2440
+Epoch 2/10, Iteration 294/980, Loss: 0.2318
+Epoch 2/10, Iteration 295/980, Loss: 0.2841
+Epoch 2/10, Iteration 296/980, Loss: 0.2978
+Epoch 2/10, Iteration 297/980, Loss: 0.2598
+Epoch 2/10, Iteration 298/980, Loss: 0.2742
+Epoch 2/10, Iteration 299/980, Loss: 0.2884
+Epoch 2/10, Iteration 300/980, Loss: 0.2828
+Epoch 2/10, Iteration 301/980, Loss: 0.2545
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 6/20 = 0.3000 Iteration 101/980
+Batch accuracy: 10/20 = 0.5000 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 9/20 = 0.4500 Iteration 401/980
+Batch accuracy: 10/20 = 0.5000 Iteration 501/980
+Batch accuracy: 8/20 = 0.4000 Iteration 601/980
+Batch accuracy: 13/20 = 0.6500 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 10/20 = 0.5000 Iteration 901/980
+Final accuracy: 10547/19598 = 0.5382 or 53.82%
+Epoch 2/10, Iteration 302/980, Loss: 0.2601
+Epoch 2/10, Iteration 303/980, Loss: 0.2829
+Epoch 2/10, Iteration 304/980, Loss: 0.2706
+Epoch 2/10, Iteration 305/980, Loss: 0.2644
+Epoch 2/10, Iteration 306/980, Loss: 0.2631
+Epoch 2/10, Iteration 307/980, Loss: 0.2388
+Epoch 2/10, Iteration 308/980, Loss: 0.2765
+Epoch 2/10, Iteration 309/980, Loss: 0.2710
+Epoch 2/10, Iteration 310/980, Loss: 0.2607
+Epoch 2/10, Iteration 311/980, Loss: 0.2677
+Epoch 2/10, Iteration 312/980, Loss: 0.2757
+Epoch 2/10, Iteration 313/980, Loss: 0.2633
+Epoch 2/10, Iteration 314/980, Loss: 0.2647
+Epoch 2/10, Iteration 315/980, Loss: 0.2763
+Epoch 2/10, Iteration 316/980, Loss: 0.2565
+Epoch 2/10, Iteration 317/980, Loss: 0.2334
+Epoch 2/10, Iteration 318/980, Loss: 0.2819
+Epoch 2/10, Iteration 319/980, Loss: 0.2621
+Epoch 2/10, Iteration 320/980, Loss: 0.2658
+Epoch 2/10, Iteration 321/980, Loss: 0.2941
+Epoch 2/10, Iteration 322/980, Loss: 0.2536
+Epoch 2/10, Iteration 323/980, Loss: 0.2584
+Epoch 2/10, Iteration 324/980, Loss: 0.2677
+Epoch 2/10, Iteration 325/980, Loss: 0.2666
+Epoch 2/10, Iteration 326/980, Loss: 0.3022
+Epoch 2/10, Iteration 327/980, Loss: 0.2558
+Epoch 2/10, Iteration 328/980, Loss: 0.2642
+Epoch 2/10, Iteration 329/980, Loss: 0.2668
+Epoch 2/10, Iteration 330/980, Loss: 0.2696
+Epoch 2/10, Iteration 331/980, Loss: 0.2919
+Epoch 2/10, Iteration 332/980, Loss: 0.2615
+Epoch 2/10, Iteration 333/980, Loss: 0.2375
+Epoch 2/10, Iteration 334/980, Loss: 0.2733
+Epoch 2/10, Iteration 335/980, Loss: 0.2653
+Epoch 2/10, Iteration 336/980, Loss: 0.2585
+Epoch 2/10, Iteration 337/980, Loss: 0.2062
+Epoch 2/10, Iteration 338/980, Loss: 0.2919
+Epoch 2/10, Iteration 339/980, Loss: 0.2523
+Epoch 2/10, Iteration 340/980, Loss: 0.3128
+Epoch 2/10, Iteration 341/980, Loss: 0.3423
+Epoch 2/10, Iteration 342/980, Loss: 0.2850
+Epoch 2/10, Iteration 343/980, Loss: 0.3087
+Epoch 2/10, Iteration 344/980, Loss: 0.2963
+Epoch 2/10, Iteration 345/980, Loss: 0.2714
+Epoch 2/10, Iteration 346/980, Loss: 0.2893
+Epoch 2/10, Iteration 347/980, Loss: 0.2760
+Epoch 2/10, Iteration 348/980, Loss: 0.2626
+Epoch 2/10, Iteration 349/980, Loss: 0.2721
+Epoch 2/10, Iteration 350/980, Loss: 0.2839
+Epoch 2/10, Iteration 351/980, Loss: 0.2664
+Epoch 2/10, Iteration 352/980, Loss: 0.2654
+Epoch 2/10, Iteration 353/980, Loss: 0.2645
+Epoch 2/10, Iteration 354/980, Loss: 0.2619
+Epoch 2/10, Iteration 355/980, Loss: 0.2610
+Epoch 2/10, Iteration 356/980, Loss: 0.2589
+Epoch 2/10, Iteration 357/980, Loss: 0.2596
+Epoch 2/10, Iteration 358/980, Loss: 0.2858
+Epoch 2/10, Iteration 359/980, Loss: 0.2921
+Epoch 2/10, Iteration 360/980, Loss: 0.2837
+Epoch 2/10, Iteration 361/980, Loss: 0.2622
+Epoch 2/10, Iteration 362/980, Loss: 0.2595
+Epoch 2/10, Iteration 363/980, Loss: 0.2630
+Epoch 2/10, Iteration 364/980, Loss: 0.2717
+Epoch 2/10, Iteration 365/980, Loss: 0.2660
+Epoch 2/10, Iteration 366/980, Loss: 0.2734
+Epoch 2/10, Iteration 367/980, Loss: 0.2648
+Epoch 2/10, Iteration 368/980, Loss: 0.2658
+Epoch 2/10, Iteration 369/980, Loss: 0.2676
+Epoch 2/10, Iteration 370/980, Loss: 0.2594
+Epoch 2/10, Iteration 371/980, Loss: 0.2679
+Epoch 2/10, Iteration 372/980, Loss: 0.2720
+Epoch 2/10, Iteration 373/980, Loss: 0.2566
+Epoch 2/10, Iteration 374/980, Loss: 0.2649
+Epoch 2/10, Iteration 375/980, Loss: 0.2758
+Epoch 2/10, Iteration 376/980, Loss: 0.2561
+Epoch 2/10, Iteration 377/980, Loss: 0.2654
+Epoch 2/10, Iteration 378/980, Loss: 0.2901
+Epoch 2/10, Iteration 379/980, Loss: 0.2628
+Epoch 2/10, Iteration 380/980, Loss: 0.2731
+Epoch 2/10, Iteration 381/980, Loss: 0.2754
+Epoch 2/10, Iteration 382/980, Loss: 0.2621
+Epoch 2/10, Iteration 383/980, Loss: 0.2574
+Epoch 2/10, Iteration 384/980, Loss: 0.2590
+Epoch 2/10, Iteration 385/980, Loss: 0.2620
+Epoch 2/10, Iteration 386/980, Loss: 0.2620
+Epoch 2/10, Iteration 387/980, Loss: 0.2589
+Epoch 2/10, Iteration 388/980, Loss: 0.2697
+Epoch 2/10, Iteration 389/980, Loss: 0.2681
+Epoch 2/10, Iteration 390/980, Loss: 0.2699
+Epoch 2/10, Iteration 391/980, Loss: 0.2654
+Epoch 2/10, Iteration 392/980, Loss: 0.2569
+Epoch 2/10, Iteration 393/980, Loss: 0.2580
+Epoch 2/10, Iteration 394/980, Loss: 0.2493
+Epoch 2/10, Iteration 395/980, Loss: 0.2569
+Epoch 2/10, Iteration 396/980, Loss: 0.2766
+Epoch 2/10, Iteration 397/980, Loss: 0.2600
+Epoch 2/10, Iteration 398/980, Loss: 0.2622
+Epoch 2/10, Iteration 399/980, Loss: 0.2655
+Epoch 2/10, Iteration 400/980, Loss: 0.2571
+Epoch 2/10, Iteration 401/980, Loss: 0.2742
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 13/20 = 0.6500 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 8/20 = 0.4000 Iteration 401/980
+Batch accuracy: 10/20 = 0.5000 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 15/20 = 0.7500 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 10869/19598 = 0.5546 or 55.46%
+Epoch 2/10, Iteration 402/980, Loss: 0.2544
+Epoch 2/10, Iteration 403/980, Loss: 0.2631
+Epoch 2/10, Iteration 404/980, Loss: 0.2594
+Epoch 2/10, Iteration 405/980, Loss: 0.2645
+Epoch 2/10, Iteration 406/980, Loss: 0.2737
+Epoch 2/10, Iteration 407/980, Loss: 0.2707
+Epoch 2/10, Iteration 408/980, Loss: 0.2568
+Epoch 2/10, Iteration 409/980, Loss: 0.2672
+Epoch 2/10, Iteration 410/980, Loss: 0.2616
+Epoch 2/10, Iteration 411/980, Loss: 0.2550
+Epoch 2/10, Iteration 412/980, Loss: 0.2580
+Epoch 2/10, Iteration 413/980, Loss: 0.2587
+Epoch 2/10, Iteration 414/980, Loss: 0.2704
+Epoch 2/10, Iteration 415/980, Loss: 0.2606
+Epoch 2/10, Iteration 416/980, Loss: 0.2681
+Epoch 2/10, Iteration 417/980, Loss: 0.2558
+Epoch 2/10, Iteration 418/980, Loss: 0.2662
+Epoch 2/10, Iteration 419/980, Loss: 0.2501
+Epoch 2/10, Iteration 420/980, Loss: 0.2688
+Epoch 2/10, Iteration 421/980, Loss: 0.2436
+Epoch 2/10, Iteration 422/980, Loss: 0.2920
+Epoch 2/10, Iteration 423/980, Loss: 0.2771
+Epoch 2/10, Iteration 424/980, Loss: 0.2599
+Epoch 2/10, Iteration 425/980, Loss: 0.2657
+Epoch 2/10, Iteration 426/980, Loss: 0.2560
+Epoch 2/10, Iteration 427/980, Loss: 0.2659
+Epoch 2/10, Iteration 428/980, Loss: 0.2657
+Epoch 2/10, Iteration 429/980, Loss: 0.2642
+Epoch 2/10, Iteration 430/980, Loss: 0.2617
+Epoch 2/10, Iteration 431/980, Loss: 0.2624
+Epoch 2/10, Iteration 432/980, Loss: 0.2776
+Epoch 2/10, Iteration 433/980, Loss: 0.2656
+Epoch 2/10, Iteration 434/980, Loss: 0.2592
+Epoch 2/10, Iteration 435/980, Loss: 0.2614
+Epoch 2/10, Iteration 436/980, Loss: 0.3335
+Epoch 2/10, Iteration 437/980, Loss: 0.2478
+Epoch 2/10, Iteration 438/980, Loss: 0.2491
+Epoch 2/10, Iteration 439/980, Loss: 0.2707
+Epoch 2/10, Iteration 440/980, Loss: 0.2617
+Epoch 2/10, Iteration 441/980, Loss: 0.2794
+Epoch 2/10, Iteration 442/980, Loss: 0.2594
+Epoch 2/10, Iteration 443/980, Loss: 0.2670
+Epoch 2/10, Iteration 444/980, Loss: 0.2570
+Epoch 2/10, Iteration 445/980, Loss: 0.2872
+Epoch 2/10, Iteration 446/980, Loss: 0.2733
+Epoch 2/10, Iteration 447/980, Loss: 0.2645
+Epoch 2/10, Iteration 448/980, Loss: 0.2528
+Epoch 2/10, Iteration 449/980, Loss: 0.2415
+Epoch 2/10, Iteration 450/980, Loss: 0.2685
+Epoch 2/10, Iteration 451/980, Loss: 0.2741
+Epoch 2/10, Iteration 452/980, Loss: 0.2823
+Epoch 2/10, Iteration 453/980, Loss: 0.2705
+Epoch 2/10, Iteration 454/980, Loss: 0.2566
+Epoch 2/10, Iteration 455/980, Loss: 0.2785
+Epoch 2/10, Iteration 456/980, Loss: 0.2675
+Epoch 2/10, Iteration 457/980, Loss: 0.2703
+Epoch 2/10, Iteration 458/980, Loss: 0.2638
+Epoch 2/10, Iteration 459/980, Loss: 0.2662
+Epoch 2/10, Iteration 460/980, Loss: 0.2468
+Epoch 2/10, Iteration 461/980, Loss: 0.2611
+Epoch 2/10, Iteration 462/980, Loss: 0.2643
+Epoch 2/10, Iteration 463/980, Loss: 0.2625
+Epoch 2/10, Iteration 464/980, Loss: 0.2631
+Epoch 2/10, Iteration 465/980, Loss: 0.2618
+Epoch 2/10, Iteration 466/980, Loss: 0.2612
+Epoch 2/10, Iteration 467/980, Loss: 0.2693
+Epoch 2/10, Iteration 468/980, Loss: 0.2712
+Epoch 2/10, Iteration 469/980, Loss: 0.2738
+Epoch 2/10, Iteration 470/980, Loss: 0.2618
+Epoch 2/10, Iteration 471/980, Loss: 0.2633
+Epoch 2/10, Iteration 472/980, Loss: 0.2703
+Epoch 2/10, Iteration 473/980, Loss: 0.2547
+Epoch 2/10, Iteration 474/980, Loss: 0.2621
+Epoch 2/10, Iteration 475/980, Loss: 0.2803
+Epoch 2/10, Iteration 476/980, Loss: 0.2575
+Epoch 2/10, Iteration 477/980, Loss: 0.2559
+Epoch 2/10, Iteration 478/980, Loss: 0.2613
+Epoch 2/10, Iteration 479/980, Loss: 0.2549
+Epoch 2/10, Iteration 480/980, Loss: 0.2574
+Epoch 2/10, Iteration 481/980, Loss: 0.2631
+Epoch 2/10, Iteration 482/980, Loss: 0.2537
+Epoch 2/10, Iteration 483/980, Loss: 0.2651
+Epoch 2/10, Iteration 484/980, Loss: 0.2622
+Epoch 2/10, Iteration 485/980, Loss: 0.2683
+Epoch 2/10, Iteration 486/980, Loss: 0.2601
+Epoch 2/10, Iteration 487/980, Loss: 0.2567
+Epoch 2/10, Iteration 488/980, Loss: 0.2647
+Epoch 2/10, Iteration 489/980, Loss: 0.2585
+Epoch 2/10, Iteration 490/980, Loss: 0.2619
+Epoch 2/10, Iteration 491/980, Loss: 0.2677
+Epoch 2/10, Iteration 492/980, Loss: 0.2540
+Epoch 2/10, Iteration 493/980, Loss: 0.2589
+Epoch 2/10, Iteration 494/980, Loss: 0.2562
+Epoch 2/10, Iteration 495/980, Loss: 0.2608
+Epoch 2/10, Iteration 496/980, Loss: 0.2616
+Epoch 2/10, Iteration 497/980, Loss: 0.2629
+Epoch 2/10, Iteration 498/980, Loss: 0.2461
+Epoch 2/10, Iteration 499/980, Loss: 0.2590
+Epoch 2/10, Iteration 500/980, Loss: 0.2626
+Epoch 2/10, Iteration 501/980, Loss: 0.2631
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 6/20 = 0.3000 Iteration 301/980
+Batch accuracy: 14/20 = 0.7000 Iteration 401/980
+Batch accuracy: 9/20 = 0.4500 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 8/20 = 0.4000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 10741/19598 = 0.5481 or 54.81%
+Epoch 2/10, Iteration 502/980, Loss: 0.2685
+Epoch 2/10, Iteration 503/980, Loss: 0.2689
+Epoch 2/10, Iteration 504/980, Loss: 0.2656
+Epoch 2/10, Iteration 505/980, Loss: 0.2638
+Epoch 2/10, Iteration 506/980, Loss: 0.2631
+Epoch 2/10, Iteration 507/980, Loss: 0.2589
+Epoch 2/10, Iteration 508/980, Loss: 0.2570
+Epoch 2/10, Iteration 509/980, Loss: 0.2591
+Epoch 2/10, Iteration 510/980, Loss: 0.2377
+Epoch 2/10, Iteration 511/980, Loss: 0.2693
+Epoch 2/10, Iteration 512/980, Loss: 0.2713
+Epoch 2/10, Iteration 513/980, Loss: 0.2658
+Epoch 2/10, Iteration 514/980, Loss: 0.2524
+Epoch 2/10, Iteration 515/980, Loss: 0.2527
+Epoch 2/10, Iteration 516/980, Loss: 0.2591
+Epoch 2/10, Iteration 517/980, Loss: 0.2626
+Epoch 2/10, Iteration 518/980, Loss: 0.2583
+Epoch 2/10, Iteration 519/980, Loss: 0.2644
+Epoch 2/10, Iteration 520/980, Loss: 0.2969
+Epoch 2/10, Iteration 521/980, Loss: 0.2782
+Epoch 2/10, Iteration 522/980, Loss: 0.2578
+Epoch 2/10, Iteration 523/980, Loss: 0.2458
+Epoch 2/10, Iteration 524/980, Loss: 0.2631
+Epoch 2/10, Iteration 525/980, Loss: 0.2582
+Epoch 2/10, Iteration 526/980, Loss: 0.2574
+Epoch 2/10, Iteration 527/980, Loss: 0.2565
+Epoch 2/10, Iteration 528/980, Loss: 0.2596
+Epoch 2/10, Iteration 529/980, Loss: 0.2625
+Epoch 2/10, Iteration 530/980, Loss: 0.2654
+Epoch 2/10, Iteration 531/980, Loss: 0.2621
+Epoch 2/10, Iteration 532/980, Loss: 0.2633
+Epoch 2/10, Iteration 533/980, Loss: 0.2574
+Epoch 2/10, Iteration 534/980, Loss: 0.2713
+Epoch 2/10, Iteration 535/980, Loss: 0.2680
+Epoch 2/10, Iteration 536/980, Loss: 0.2546
+Epoch 2/10, Iteration 537/980, Loss: 0.2578
+Epoch 2/10, Iteration 538/980, Loss: 0.2626
+Epoch 2/10, Iteration 539/980, Loss: 0.2572
+Epoch 2/10, Iteration 540/980, Loss: 0.2664
+Epoch 2/10, Iteration 541/980, Loss: 0.2632
+Epoch 2/10, Iteration 542/980, Loss: 0.2615
+Epoch 2/10, Iteration 543/980, Loss: 0.2632
+Epoch 2/10, Iteration 544/980, Loss: 0.2492
+Epoch 2/10, Iteration 545/980, Loss: 0.2527
+Epoch 2/10, Iteration 546/980, Loss: 0.2590
+Epoch 2/10, Iteration 547/980, Loss: 0.2521
+Epoch 2/10, Iteration 548/980, Loss: 0.2670
+Epoch 2/10, Iteration 549/980, Loss: 0.2578
+Epoch 2/10, Iteration 550/980, Loss: 0.2582
+Epoch 2/10, Iteration 551/980, Loss: 0.2698
+Epoch 2/10, Iteration 552/980, Loss: 0.2557
+Epoch 2/10, Iteration 553/980, Loss: 0.2602
+Epoch 2/10, Iteration 554/980, Loss: 0.2597
+Epoch 2/10, Iteration 555/980, Loss: 0.2584
+Epoch 2/10, Iteration 556/980, Loss: 0.2641
+Epoch 2/10, Iteration 557/980, Loss: 0.2607
+Epoch 2/10, Iteration 558/980, Loss: 0.2612
+Epoch 2/10, Iteration 559/980, Loss: 0.2705
+Epoch 2/10, Iteration 560/980, Loss: 0.2610
+Epoch 2/10, Iteration 561/980, Loss: 0.2561
+Epoch 2/10, Iteration 562/980, Loss: 0.2606
+Epoch 2/10, Iteration 563/980, Loss: 0.2583
+Epoch 2/10, Iteration 564/980, Loss: 0.2590
+Epoch 2/10, Iteration 565/980, Loss: 0.2727
+Epoch 2/10, Iteration 566/980, Loss: 0.2671
+Epoch 2/10, Iteration 567/980, Loss: 0.2541
+Epoch 2/10, Iteration 568/980, Loss: 0.2945
+Epoch 2/10, Iteration 569/980, Loss: 0.2383
+Epoch 2/10, Iteration 570/980, Loss: 0.2674
+Epoch 2/10, Iteration 571/980, Loss: 0.2869
+Epoch 2/10, Iteration 572/980, Loss: 0.2678
+Epoch 2/10, Iteration 573/980, Loss: 0.2769
+Epoch 2/10, Iteration 574/980, Loss: 0.2694
+Epoch 2/10, Iteration 575/980, Loss: 0.2590
+Epoch 2/10, Iteration 576/980, Loss: 0.2570
+Epoch 2/10, Iteration 577/980, Loss: 0.2590
+Epoch 2/10, Iteration 578/980, Loss: 0.2603
+Epoch 2/10, Iteration 579/980, Loss: 0.2745
+Epoch 2/10, Iteration 580/980, Loss: 0.2635
+Epoch 2/10, Iteration 581/980, Loss: 0.2536
+Epoch 2/10, Iteration 582/980, Loss: 0.2538
+Epoch 2/10, Iteration 583/980, Loss: 0.2589
+Epoch 2/10, Iteration 584/980, Loss: 0.2605
+Epoch 2/10, Iteration 585/980, Loss: 0.2542
+Epoch 2/10, Iteration 586/980, Loss: 0.2551
+Epoch 2/10, Iteration 587/980, Loss: 0.2582
+Epoch 2/10, Iteration 588/980, Loss: 0.2576
+Epoch 2/10, Iteration 589/980, Loss: 0.2787
+Epoch 2/10, Iteration 590/980, Loss: 0.3019
+Epoch 2/10, Iteration 591/980, Loss: 0.2555
+Epoch 2/10, Iteration 592/980, Loss: 0.2673
+Epoch 2/10, Iteration 593/980, Loss: 0.2592
+Epoch 2/10, Iteration 594/980, Loss: 0.2599
+Epoch 2/10, Iteration 595/980, Loss: 0.2514
+Epoch 2/10, Iteration 596/980, Loss: 0.2538
+Epoch 2/10, Iteration 597/980, Loss: 0.2676
+Epoch 2/10, Iteration 598/980, Loss: 0.2752
+Epoch 2/10, Iteration 599/980, Loss: 0.2610
+Epoch 2/10, Iteration 600/980, Loss: 0.2728
+Epoch 2/10, Iteration 601/980, Loss: 0.2749
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 8/20 = 0.4000 Iteration 101/980
+Batch accuracy: 13/20 = 0.6500 Iteration 201/980
+Batch accuracy: 8/20 = 0.4000 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 12/20 = 0.6000 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 11/20 = 0.5500 Iteration 801/980
+Batch accuracy: 8/20 = 0.4000 Iteration 901/980
+Final accuracy: 10450/19598 = 0.5332 or 53.32%
+Epoch 2/10, Iteration 602/980, Loss: 0.2575
+Epoch 2/10, Iteration 603/980, Loss: 0.2720
+Epoch 2/10, Iteration 604/980, Loss: 0.2638
+Epoch 2/10, Iteration 605/980, Loss: 0.2611
+Epoch 2/10, Iteration 606/980, Loss: 0.2774
+Epoch 2/10, Iteration 607/980, Loss: 0.2718
+Epoch 2/10, Iteration 608/980, Loss: 0.2943
+Epoch 2/10, Iteration 609/980, Loss: 0.2641
+Epoch 2/10, Iteration 610/980, Loss: 0.2768
+Epoch 2/10, Iteration 611/980, Loss: 0.3557
+Epoch 2/10, Iteration 612/980, Loss: 0.3438
+Epoch 2/10, Iteration 613/980, Loss: 0.3410
+Epoch 2/10, Iteration 614/980, Loss: 0.2877
+Epoch 2/10, Iteration 615/980, Loss: 0.2882
+Epoch 2/10, Iteration 616/980, Loss: 0.2742
+Epoch 2/10, Iteration 617/980, Loss: 0.2735
+Epoch 2/10, Iteration 618/980, Loss: 0.3019
+Epoch 2/10, Iteration 619/980, Loss: 0.2808
+Epoch 2/10, Iteration 620/980, Loss: 0.2688
+Epoch 2/10, Iteration 621/980, Loss: 0.3017
+Epoch 2/10, Iteration 622/980, Loss: 0.2694
+Epoch 2/10, Iteration 623/980, Loss: 0.2672
+Epoch 2/10, Iteration 624/980, Loss: 0.2687
+Epoch 2/10, Iteration 625/980, Loss: 0.2693
+Epoch 2/10, Iteration 626/980, Loss: 0.2622
+Epoch 2/10, Iteration 627/980, Loss: 0.2765
+Epoch 2/10, Iteration 628/980, Loss: 0.2613
+Epoch 2/10, Iteration 629/980, Loss: 0.2718
+Epoch 2/10, Iteration 630/980, Loss: 0.2598
+Epoch 2/10, Iteration 631/980, Loss: 0.2592
+Epoch 2/10, Iteration 632/980, Loss: 0.2667
+Epoch 2/10, Iteration 633/980, Loss: 0.2732
+Epoch 2/10, Iteration 634/980, Loss: 0.2704
+Epoch 2/10, Iteration 635/980, Loss: 0.2692
+Epoch 2/10, Iteration 636/980, Loss: 0.2600
+Epoch 2/10, Iteration 637/980, Loss: 0.2667
+Epoch 2/10, Iteration 638/980, Loss: 0.2661
+Epoch 2/10, Iteration 639/980, Loss: 0.2644
+Epoch 2/10, Iteration 640/980, Loss: 0.2543
+Epoch 2/10, Iteration 641/980, Loss: 0.2644
+Epoch 2/10, Iteration 642/980, Loss: 0.3202
+Epoch 2/10, Iteration 643/980, Loss: 0.2628
+Epoch 2/10, Iteration 644/980, Loss: 0.2573
+Epoch 2/10, Iteration 645/980, Loss: 0.2535
+Epoch 2/10, Iteration 646/980, Loss: 0.2714
+Epoch 2/10, Iteration 647/980, Loss: 0.2885
+Epoch 2/10, Iteration 648/980, Loss: 0.2796
+Epoch 2/10, Iteration 649/980, Loss: 0.2671
+Epoch 2/10, Iteration 650/980, Loss: 0.2605
+Epoch 2/10, Iteration 651/980, Loss: 0.2616
+Epoch 2/10, Iteration 652/980, Loss: 0.2848
+Epoch 2/10, Iteration 653/980, Loss: 0.2950
+Epoch 2/10, Iteration 654/980, Loss: 0.2811
+Epoch 2/10, Iteration 655/980, Loss: 0.2954
+Epoch 2/10, Iteration 656/980, Loss: 0.2722
+Epoch 2/10, Iteration 657/980, Loss: 0.2616
+Epoch 2/10, Iteration 658/980, Loss: 0.2614
+Epoch 2/10, Iteration 659/980, Loss: 0.3114
+Epoch 2/10, Iteration 660/980, Loss: 0.2606
+Epoch 2/10, Iteration 661/980, Loss: 0.2682
+Epoch 2/10, Iteration 662/980, Loss: 0.2719
+Epoch 2/10, Iteration 663/980, Loss: 0.2728
+Epoch 2/10, Iteration 664/980, Loss: 0.2538
+Epoch 2/10, Iteration 665/980, Loss: 0.2475
+Epoch 2/10, Iteration 666/980, Loss: 0.2498
+Epoch 2/10, Iteration 667/980, Loss: 0.2650
+Epoch 2/10, Iteration 668/980, Loss: 0.2912
+Epoch 2/10, Iteration 669/980, Loss: 0.2664
+Epoch 2/10, Iteration 670/980, Loss: 0.2364
+Epoch 2/10, Iteration 671/980, Loss: 0.2694
+Epoch 2/10, Iteration 672/980, Loss: 0.3321
+Epoch 2/10, Iteration 673/980, Loss: 0.3047
+Epoch 2/10, Iteration 674/980, Loss: 0.2667
+Epoch 2/10, Iteration 675/980, Loss: 0.2486
+Epoch 2/10, Iteration 676/980, Loss: 0.2603
+Epoch 2/10, Iteration 677/980, Loss: 0.2715
+Epoch 2/10, Iteration 678/980, Loss: 0.2671
+Epoch 2/10, Iteration 679/980, Loss: 0.2788
+Epoch 2/10, Iteration 680/980, Loss: 0.2622
+Epoch 2/10, Iteration 681/980, Loss: 0.2651
+Epoch 2/10, Iteration 682/980, Loss: 0.2536
+Epoch 2/10, Iteration 683/980, Loss: 0.2532
+Epoch 2/10, Iteration 684/980, Loss: 0.2790
+Epoch 2/10, Iteration 685/980, Loss: 0.2727
+Epoch 2/10, Iteration 686/980, Loss: 0.2750
+Epoch 2/10, Iteration 687/980, Loss: 0.2711
+Epoch 2/10, Iteration 688/980, Loss: 0.2843
+Epoch 2/10, Iteration 689/980, Loss: 0.2711
+Epoch 2/10, Iteration 690/980, Loss: 0.2708
+Epoch 2/10, Iteration 691/980, Loss: 0.2662
+Epoch 2/10, Iteration 692/980, Loss: 0.2640
+Epoch 2/10, Iteration 693/980, Loss: 0.2553
+Epoch 2/10, Iteration 694/980, Loss: 0.2582
+Epoch 2/10, Iteration 695/980, Loss: 0.2519
+Epoch 2/10, Iteration 696/980, Loss: 0.2600
+Epoch 2/10, Iteration 697/980, Loss: 0.2722
+Epoch 2/10, Iteration 698/980, Loss: 0.2553
+Epoch 2/10, Iteration 699/980, Loss: 0.2518
+Epoch 2/10, Iteration 700/980, Loss: 0.2527
+Epoch 2/10, Iteration 701/980, Loss: 0.2562
+Batch accuracy: 10/20 = 0.5000 Iteration 1/980
+Batch accuracy: 8/20 = 0.4000 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 9/20 = 0.4500 Iteration 301/980
+Batch accuracy: 12/20 = 0.6000 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 14/20 = 0.7000 Iteration 701/980
+Batch accuracy: 17/20 = 0.8500 Iteration 801/980
+Batch accuracy: 11/20 = 0.5500 Iteration 901/980
+Final accuracy: 10080/19598 = 0.5143 or 51.43%
+Epoch 2/10, Iteration 702/980, Loss: 0.2500
+Epoch 2/10, Iteration 703/980, Loss: 0.2512
+Epoch 2/10, Iteration 704/980, Loss: 0.2965
+Epoch 2/10, Iteration 705/980, Loss: 0.2275
+Epoch 2/10, Iteration 706/980, Loss: 0.2877
+Epoch 2/10, Iteration 707/980, Loss: 0.2570
+Epoch 2/10, Iteration 708/980, Loss: 0.2412
+Epoch 2/10, Iteration 709/980, Loss: 0.2658
+Epoch 2/10, Iteration 710/980, Loss: 0.2926
+Epoch 2/10, Iteration 711/980, Loss: 0.2658
+Epoch 2/10, Iteration 712/980, Loss: 0.2755
+Epoch 2/10, Iteration 713/980, Loss: 0.2718
+Epoch 2/10, Iteration 714/980, Loss: 0.2544
+Epoch 2/10, Iteration 715/980, Loss: 0.2530
+Epoch 2/10, Iteration 716/980, Loss: 0.2586
+Epoch 2/10, Iteration 717/980, Loss: 0.2592
+Epoch 2/10, Iteration 718/980, Loss: 0.2635
+Epoch 2/10, Iteration 719/980, Loss: 0.2558
+Epoch 2/10, Iteration 720/980, Loss: 0.2448
+Epoch 2/10, Iteration 721/980, Loss: 0.2565
+Epoch 2/10, Iteration 722/980, Loss: 0.2512
+Epoch 2/10, Iteration 723/980, Loss: 0.2551
+Epoch 2/10, Iteration 724/980, Loss: 0.2701
+Epoch 2/10, Iteration 725/980, Loss: 0.2800
+Epoch 2/10, Iteration 726/980, Loss: 0.2580
+Epoch 2/10, Iteration 727/980, Loss: 0.2422
+Epoch 2/10, Iteration 728/980, Loss: 0.2658
+Epoch 2/10, Iteration 729/980, Loss: 0.2521
+Epoch 2/10, Iteration 730/980, Loss: 0.2896
+Epoch 2/10, Iteration 731/980, Loss: 0.2786
+Epoch 2/10, Iteration 732/980, Loss: 0.2719
+Epoch 2/10, Iteration 733/980, Loss: 0.2579
+Epoch 2/10, Iteration 734/980, Loss: 0.2703
+Epoch 2/10, Iteration 735/980, Loss: 0.2616
+Epoch 2/10, Iteration 736/980, Loss: 0.2749
+Epoch 2/10, Iteration 737/980, Loss: 0.2604
+Epoch 2/10, Iteration 738/980, Loss: 0.2588
+Epoch 2/10, Iteration 739/980, Loss: 0.2597
+Epoch 2/10, Iteration 740/980, Loss: 0.2588
+Epoch 2/10, Iteration 741/980, Loss: 0.2505
+Epoch 2/10, Iteration 742/980, Loss: 0.2606
+Epoch 2/10, Iteration 743/980, Loss: 0.2701
+Epoch 2/10, Iteration 744/980, Loss: 0.2843
+Epoch 2/10, Iteration 745/980, Loss: 0.3097
+Epoch 2/10, Iteration 746/980, Loss: 0.2747
+Epoch 2/10, Iteration 747/980, Loss: 0.2717
+Epoch 2/10, Iteration 748/980, Loss: 0.2682
+Epoch 2/10, Iteration 749/980, Loss: 0.2574
+Epoch 2/10, Iteration 750/980, Loss: 0.2634
+Epoch 2/10, Iteration 751/980, Loss: 0.2598
+Epoch 2/10, Iteration 752/980, Loss: 0.2676
+Epoch 2/10, Iteration 753/980, Loss: 0.2688
+Epoch 2/10, Iteration 754/980, Loss: 0.2590
+Epoch 2/10, Iteration 755/980, Loss: 0.2511
+Epoch 2/10, Iteration 756/980, Loss: 0.2696
+Epoch 2/10, Iteration 757/980, Loss: 0.2634
+Epoch 2/10, Iteration 758/980, Loss: 0.2677
+Epoch 2/10, Iteration 759/980, Loss: 0.2407
+Epoch 2/10, Iteration 760/980, Loss: 0.2795
+Epoch 2/10, Iteration 761/980, Loss: 0.2646
+Epoch 2/10, Iteration 762/980, Loss: 0.2565
+Epoch 2/10, Iteration 763/980, Loss: 0.2565
+Epoch 2/10, Iteration 764/980, Loss: 0.2543
+Epoch 2/10, Iteration 765/980, Loss: 0.2620
+Epoch 2/10, Iteration 766/980, Loss: 0.2564
+Epoch 2/10, Iteration 767/980, Loss: 0.2585
+Epoch 2/10, Iteration 768/980, Loss: 0.2734
+Epoch 2/10, Iteration 769/980, Loss: 0.2584
+Epoch 2/10, Iteration 770/980, Loss: 0.2601
+Epoch 2/10, Iteration 771/980, Loss: 0.2615
+Epoch 2/10, Iteration 772/980, Loss: 0.2596
+Epoch 2/10, Iteration 773/980, Loss: 0.2555
+Epoch 2/10, Iteration 774/980, Loss: 0.2610
+Epoch 2/10, Iteration 775/980, Loss: 0.2727
+Epoch 2/10, Iteration 776/980, Loss: 0.2621
+Epoch 2/10, Iteration 777/980, Loss: 0.2662
+Epoch 2/10, Iteration 778/980, Loss: 0.2563
+Epoch 2/10, Iteration 779/980, Loss: 0.2960
+Epoch 2/10, Iteration 780/980, Loss: 0.2695
+Epoch 2/10, Iteration 781/980, Loss: 0.2695
+Epoch 2/10, Iteration 782/980, Loss: 0.2655
+Epoch 2/10, Iteration 783/980, Loss: 0.2619
+Epoch 2/10, Iteration 784/980, Loss: 0.2923
+Epoch 2/10, Iteration 785/980, Loss: 0.2667
+Epoch 2/10, Iteration 786/980, Loss: 0.2622
+Epoch 2/10, Iteration 787/980, Loss: 0.2924
+Epoch 2/10, Iteration 788/980, Loss: 0.2569
+Epoch 2/10, Iteration 789/980, Loss: 0.3046
+Epoch 2/10, Iteration 790/980, Loss: 0.2920
+Epoch 2/10, Iteration 791/980, Loss: 0.2709
+Epoch 2/10, Iteration 792/980, Loss: 0.3352
+Epoch 2/10, Iteration 793/980, Loss: 0.3994
+Epoch 2/10, Iteration 794/980, Loss: 0.4499
+Epoch 2/10, Iteration 795/980, Loss: 0.4499
+Epoch 2/10, Iteration 796/980, Loss: 0.4999
+Epoch 2/10, Iteration 797/980, Loss: 0.2499
+Epoch 2/10, Iteration 798/980, Loss: 0.5499
+Epoch 2/10, Iteration 799/980, Loss: 0.4498
+Epoch 2/10, Iteration 800/980, Loss: 0.3998
+Epoch 2/10, Iteration 801/980, Loss: 0.7496
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 10/20 = 0.5000 Iteration 101/980
+Batch accuracy: 7/20 = 0.3500 Iteration 201/980
+Batch accuracy: 10/20 = 0.5000 Iteration 301/980
+Batch accuracy: 12/20 = 0.6000 Iteration 401/980
+Batch accuracy: 11/20 = 0.5500 Iteration 501/980
+Batch accuracy: 9/20 = 0.4500 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 9/20 = 0.4500 Iteration 801/980
+Batch accuracy: 10/20 = 0.5000 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Epoch 2/10, Iteration 802/980, Loss: 0.4995
+Epoch 2/10, Iteration 803/980, Loss: 0.4995
+Epoch 2/10, Iteration 804/980, Loss: 0.4494
+Epoch 2/10, Iteration 805/980, Loss: 0.5999
+Epoch 2/10, Iteration 806/980, Loss: 0.5999
+Epoch 2/10, Iteration 807/980, Loss: 0.5498
+Epoch 2/10, Iteration 808/980, Loss: 0.4998
+Epoch 2/10, Iteration 809/980, Loss: 0.3498
+Epoch 2/10, Iteration 810/980, Loss: 0.5498
+Epoch 2/10, Iteration 811/980, Loss: 0.2499
+Epoch 2/10, Iteration 812/980, Loss: 0.5498
+Epoch 2/10, Iteration 813/980, Loss: 0.6997
+Epoch 2/10, Iteration 814/980, Loss: 0.5997
+Epoch 2/10, Iteration 815/980, Loss: 0.5497
+Epoch 2/10, Iteration 816/980, Loss: 0.3998
+Epoch 2/10, Iteration 817/980, Loss: 0.4997
+Epoch 2/10, Iteration 818/980, Loss: 0.4995
+Epoch 2/10, Iteration 819/980, Loss: 0.4497
+Epoch 2/10, Iteration 820/980, Loss: 0.5494
+Epoch 2/10, Iteration 821/980, Loss: 0.6488
+Epoch 2/10, Iteration 822/980, Loss: 0.5485
+Epoch 2/10, Iteration 823/980, Loss: 0.5487
+Epoch 2/10, Iteration 824/980, Loss: 0.3985
+Epoch 2/10, Iteration 825/980, Loss: 0.6477
+Epoch 2/10, Iteration 826/980, Loss: 0.4986
+Epoch 2/10, Iteration 827/980, Loss: 0.5969
+Epoch 2/10, Iteration 828/980, Loss: 0.5968
+Epoch 2/10, Iteration 829/980, Loss: 0.4463
+Epoch 2/10, Iteration 830/980, Loss: 0.4931
+Epoch 2/10, Iteration 831/980, Loss: 0.4944
+Epoch 2/10, Iteration 832/980, Loss: 0.3938
+Epoch 2/10, Iteration 833/980, Loss: 0.3469
+Epoch 2/10, Iteration 834/980, Loss: 0.5950
+Epoch 2/10, Iteration 835/980, Loss: 0.5938
+Epoch 2/10, Iteration 836/980, Loss: 0.3991
+Epoch 2/10, Iteration 837/980, Loss: 0.5494
+Epoch 2/10, Iteration 838/980, Loss: 0.4496
+Epoch 2/10, Iteration 839/980, Loss: 0.7497
+Epoch 2/10, Iteration 840/980, Loss: 0.4998
+Epoch 2/10, Iteration 841/980, Loss: 0.4997
+Epoch 2/10, Iteration 842/980, Loss: 0.4997
+Epoch 2/10, Iteration 843/980, Loss: 0.5496
+Epoch 2/10, Iteration 844/980, Loss: 0.5989
+Epoch 2/10, Iteration 845/980, Loss: 0.4986
+Epoch 2/10, Iteration 846/980, Loss: 0.3992
+Epoch 2/10, Iteration 847/980, Loss: 0.4980
+Epoch 2/10, Iteration 848/980, Loss: 0.5976
+Epoch 2/10, Iteration 849/980, Loss: 0.3482
+Epoch 2/10, Iteration 850/980, Loss: 0.5473
+Epoch 2/10, Iteration 851/980, Loss: 0.4946
+Epoch 2/10, Iteration 852/980, Loss: 0.3958
+Epoch 2/10, Iteration 853/980, Loss: 0.6447
+Epoch 2/10, Iteration 854/980, Loss: 0.2952
+Epoch 2/10, Iteration 855/980, Loss: 0.4426
+Epoch 2/10, Iteration 856/980, Loss: 0.4923
+Epoch 2/10, Iteration 857/980, Loss: 0.3768
+Epoch 2/10, Iteration 858/980, Loss: 0.4796
+Epoch 2/10, Iteration 859/980, Loss: 0.3404
+Epoch 2/10, Iteration 860/980, Loss: 0.5029
+Epoch 2/10, Iteration 861/980, Loss: 0.6592
+Epoch 2/10, Iteration 862/980, Loss: 0.3515
+Epoch 2/10, Iteration 863/980, Loss: 0.3977
+Epoch 2/10, Iteration 864/980, Loss: 0.5996
+Epoch 2/10, Iteration 865/980, Loss: 0.6996
+Epoch 2/10, Iteration 866/980, Loss: 0.6999
+Epoch 2/10, Iteration 867/980, Loss: 0.5000
+Epoch 2/10, Iteration 868/980, Loss: 0.5500
+Epoch 2/10, Iteration 869/980, Loss: 0.4999
+Epoch 2/10, Iteration 870/980, Loss: 0.4000
+Epoch 2/10, Iteration 871/980, Loss: 0.5500
+Epoch 2/10, Iteration 872/980, Loss: 0.3500
+Epoch 2/10, Iteration 873/980, Loss: 0.4999
+Epoch 2/10, Iteration 874/980, Loss: 0.6999
+Epoch 2/10, Iteration 875/980, Loss: 0.5499
+Epoch 2/10, Iteration 876/980, Loss: 0.6998
+Epoch 2/10, Iteration 877/980, Loss: 0.4499
+Epoch 2/10, Iteration 878/980, Loss: 0.3999
+Epoch 2/10, Iteration 879/980, Loss: 0.3499
+Epoch 2/10, Iteration 880/980, Loss: 0.5998
+Epoch 2/10, Iteration 881/980, Loss: 0.3998
+Epoch 2/10, Iteration 882/980, Loss: 0.5498
+Epoch 2/10, Iteration 883/980, Loss: 0.4498
+Epoch 2/10, Iteration 884/980, Loss: 0.4996
+Epoch 2/10, Iteration 885/980, Loss: 0.4993
+Epoch 2/10, Iteration 886/980, Loss: 0.5991
+Epoch 2/10, Iteration 887/980, Loss: 0.5989
+Epoch 2/10, Iteration 888/980, Loss: 0.5993
+Epoch 2/10, Iteration 889/980, Loss: 0.3985
+Epoch 2/10, Iteration 890/980, Loss: 0.1994
+Epoch 2/10, Iteration 891/980, Loss: 0.5989
+Epoch 2/10, Iteration 892/980, Loss: 0.6467
+Epoch 2/10, Iteration 893/980, Loss: 0.5990
+Epoch 2/10, Iteration 894/980, Loss: 0.5491
+Epoch 2/10, Iteration 895/980, Loss: 0.5981
+Epoch 2/10, Iteration 896/980, Loss: 0.2493
+Epoch 2/10, Iteration 897/980, Loss: 0.3995
+Epoch 2/10, Iteration 898/980, Loss: 0.4987
+Epoch 2/10, Iteration 899/980, Loss: 0.4989
+Epoch 2/10, Iteration 900/980, Loss: 0.5488
+Epoch 2/10, Iteration 901/980, Loss: 0.6963
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 8/20 = 0.4000 Iteration 301/980
+Batch accuracy: 10/20 = 0.5000 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 10/20 = 0.5000 Iteration 601/980
+Batch accuracy: 9/20 = 0.4500 Iteration 701/980
+Batch accuracy: 13/20 = 0.6500 Iteration 801/980
+Batch accuracy: 4/20 = 0.2000 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Epoch 2/10, Iteration 902/980, Loss: 0.2485
+Epoch 2/10, Iteration 903/980, Loss: 0.4475
+Epoch 2/10, Iteration 904/980, Loss: 0.5964
+Epoch 2/10, Iteration 905/980, Loss: 0.2986
+Epoch 2/10, Iteration 906/980, Loss: 0.3977
+Epoch 2/10, Iteration 907/980, Loss: 0.3973
+Epoch 2/10, Iteration 908/980, Loss: 0.3956
+Epoch 2/10, Iteration 909/980, Loss: 0.5424
+Epoch 2/10, Iteration 910/980, Loss: 0.3917
+Epoch 2/10, Iteration 911/980, Loss: 0.4878
+Epoch 2/10, Iteration 912/980, Loss: 0.3339
+Epoch 2/10, Iteration 913/980, Loss: 0.5205
+Epoch 2/10, Iteration 914/980, Loss: 0.3817
+Epoch 2/10, Iteration 915/980, Loss: 0.3857
+Epoch 2/10, Iteration 916/980, Loss: 0.1449
+Epoch 2/10, Iteration 917/980, Loss: 0.3318
+Epoch 2/10, Iteration 918/980, Loss: 0.4989
+Epoch 2/10, Iteration 919/980, Loss: 0.3562
+Epoch 2/10, Iteration 920/980, Loss: 0.5893
+Epoch 2/10, Iteration 921/980, Loss: 0.3700
+Epoch 2/10, Iteration 922/980, Loss: 0.6818
+Epoch 2/10, Iteration 923/980, Loss: 0.4869
+Epoch 2/10, Iteration 924/980, Loss: 0.3986
+Epoch 2/10, Iteration 925/980, Loss: 0.3696
+Epoch 2/10, Iteration 926/980, Loss: 0.3235
+Epoch 2/10, Iteration 927/980, Loss: 0.4645
+Epoch 2/10, Iteration 928/980, Loss: 0.3973
+Epoch 2/10, Iteration 929/980, Loss: 0.4366
+Epoch 2/10, Iteration 930/980, Loss: 0.5595
+Epoch 2/10, Iteration 931/980, Loss: 0.4129
+Epoch 2/10, Iteration 932/980, Loss: 0.3816
+Epoch 2/10, Iteration 933/980, Loss: 0.6644
+Epoch 2/10, Iteration 934/980, Loss: 0.4786
+Epoch 2/10, Iteration 935/980, Loss: 0.3870
+Epoch 2/10, Iteration 936/980, Loss: 0.4970
+Epoch 2/10, Iteration 937/980, Loss: 0.3984
+Epoch 2/10, Iteration 938/980, Loss: 0.4957
+Epoch 2/10, Iteration 939/980, Loss: 0.2410
+Epoch 2/10, Iteration 940/980, Loss: 0.4251
+Epoch 2/10, Iteration 941/980, Loss: 0.4367
+Epoch 2/10, Iteration 942/980, Loss: 0.4315
+Epoch 2/10, Iteration 943/980, Loss: 0.5234
+Epoch 2/10, Iteration 944/980, Loss: 0.3288
+Epoch 2/10, Iteration 945/980, Loss: 0.2854
+Epoch 2/10, Iteration 946/980, Loss: 0.3123
+Epoch 2/10, Iteration 947/980, Loss: 0.2876
+Epoch 2/10, Iteration 948/980, Loss: 0.6243
+Epoch 2/10, Iteration 949/980, Loss: 0.6497
+Epoch 2/10, Iteration 950/980, Loss: 0.6999
+Epoch 2/10, Iteration 951/980, Loss: 0.5999
+Epoch 2/10, Iteration 952/980, Loss: 0.3997
+Epoch 2/10, Iteration 953/980, Loss: 0.5982
+Epoch 2/10, Iteration 954/980, Loss: 0.3498
+Epoch 2/10, Iteration 955/980, Loss: 0.5998
+Epoch 2/10, Iteration 956/980, Loss: 0.4496
+Epoch 2/10, Iteration 957/980, Loss: 0.4494
+Epoch 2/10, Iteration 958/980, Loss: 0.4486
+Epoch 2/10, Iteration 959/980, Loss: 0.5950
+Epoch 2/10, Iteration 960/980, Loss: 0.6971
+Epoch 2/10, Iteration 961/980, Loss: 0.2945
+Epoch 2/10, Iteration 962/980, Loss: 0.3945
+Epoch 2/10, Iteration 963/980, Loss: 0.4862
+Epoch 2/10, Iteration 964/980, Loss: 0.4474
+Epoch 2/10, Iteration 965/980, Loss: 0.4978
+Epoch 2/10, Iteration 966/980, Loss: 0.6975
+Epoch 2/10, Iteration 967/980, Loss: 0.5951
+Epoch 2/10, Iteration 968/980, Loss: 0.5453
+Epoch 2/10, Iteration 969/980, Loss: 0.6420
+Epoch 2/10, Iteration 970/980, Loss: 0.5896
+Epoch 2/10, Iteration 971/980, Loss: 0.4320
+Epoch 2/10, Iteration 972/980, Loss: 0.5749
+Epoch 2/10, Iteration 973/980, Loss: 0.4212
+Epoch 2/10, Iteration 974/980, Loss: 0.3550
+Epoch 2/10, Iteration 975/980, Loss: 0.3400
+Epoch 2/10, Iteration 976/980, Loss: 0.2180
+Epoch 2/10, Iteration 977/980, Loss: 0.2873
+Epoch 2/10, Iteration 978/980, Loss: 0.5366
+Epoch 2/10, Iteration 979/980, Loss: 0.3244
+Epoch 2/10, Iteration 980/980, Loss: 0.6092
+Validating epoch 2/10
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 8/20 = 0.4000 Iteration 201/980
+Batch accuracy: 7/20 = 0.3500 Iteration 301/980
+Batch accuracy: 11/20 = 0.5500 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 6/20 = 0.3000 Iteration 601/980
+Batch accuracy: 10/20 = 0.5000 Iteration 701/980
+Batch accuracy: 12/20 = 0.6000 Iteration 801/980
+Batch accuracy: 10/20 = 0.5000 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 7/20 = 0.3500 Iteration 101/980
+Batch accuracy: 11/20 = 0.5500 Iteration 201/980
+Batch accuracy: 11/20 = 0.5500 Iteration 301/980
+Batch accuracy: 7/20 = 0.3500 Iteration 401/980
+Batch accuracy: 11/20 = 0.5500 Iteration 501/980
+Batch accuracy: 7/20 = 0.3500 Iteration 601/980
+Batch accuracy: 9/20 = 0.4500 Iteration 701/980
+Batch accuracy: 10/20 = 0.5000 Iteration 801/980
+Batch accuracy: 14/20 = 0.7000 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Batch accuracy: 12/20 = 0.6000 Iteration 1/980
+Batch accuracy: 11/20 = 0.5500 Iteration 101/980
+Batch accuracy: 9/20 = 0.4500 Iteration 201/980
+Batch accuracy: 10/20 = 0.5000 Iteration 301/980
+Batch accuracy: 12/20 = 0.6000 Iteration 401/980
+Batch accuracy: 12/20 = 0.6000 Iteration 501/980
+Batch accuracy: 11/20 = 0.5500 Iteration 601/980
+Batch accuracy: 8/20 = 0.4000 Iteration 701/980
+Batch accuracy: 9/20 = 0.4500 Iteration 801/980
+Batch accuracy: 9/20 = 0.4500 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Batch accuracy: 11/20 = 0.5500 Iteration 1/980
+Batch accuracy: 12/20 = 0.6000 Iteration 101/980
+Batch accuracy: 12/20 = 0.6000 Iteration 201/980
+Batch accuracy: 10/20 = 0.5000 Iteration 301/980
+Batch accuracy: 16/20 = 0.8000 Iteration 401/980
+Batch accuracy: 13/20 = 0.6500 Iteration 501/980
+Batch accuracy: 8/20 = 0.4000 Iteration 601/980
+Batch accuracy: 11/20 = 0.5500 Iteration 701/980
+Batch accuracy: 10/20 = 0.5000 Iteration 801/980
+Batch accuracy: 12/20 = 0.6000 Iteration 901/980
+Final accuracy: 9799/19598 = 0.5000 or 50.00%
+Batch accuracy: 9/20 = 0.4500 Iteration 1/980
+Batch accuracy: 8/20 = 0.4000 Iteration 101/980
+Batch accuracy: 9/20 = 0.4500 Iteration 201/980
+Batch accuracy: 13/20 = 0.6500 Iteration 301/980
+Traceback (most recent call last):
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 275, in <module>
+    trained_model, training_loss, validation_loss = training(trained_model, train_dataloader, val_dataloader, epochs=10, lr=0.001)
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 168, in training
+    accuracy = calculate_accuracy(model,val_loader)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 201, in calculate_accuracy
+    output1, output2 = model(img1, img2)
+                       ^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 105, in forward
+    output1 = self.forward_one(input1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py", line 98, in forward_one
+    features = self.feature_extractor(x)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torchvision/models/mobilenetv2.py", line 62, in forward
+    return x + self.conv(x)
+               ^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+KeyboardInterrupt

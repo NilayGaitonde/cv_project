@@ -1,0 +1,29 @@
+2025-03-04 19:46:34,725 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2025-03-04 19:46:34,725 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Configure stats pid to 72254
+2025-03-04 19:46:34,725 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Loading settings from /Users/nilaygaitonde/.config/wandb/settings
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Loading settings from /Users/nilaygaitonde/Documents/Projects/cv_project/wandb/settings
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'siamese.py', 'program_abspath': '/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py', 'program': '/Users/nilaygaitonde/Documents/Projects/cv_project/siamese.py'}
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:_log_setup():520] Logging user logs to /Users/nilaygaitonde/Documents/Projects/cv_project/wandb/run-20250304_194634-5equwco7/logs/debug.log
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/nilaygaitonde/Documents/Projects/cv_project/wandb/run-20250304_194634-5equwco7/logs/debug-internal.log
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:init():560] calling init triggers
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'lr': 0.001, 'patience': 5, 'min_delta': 0, 'batch_size': 20}
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:init():610] starting backend
+2025-03-04 19:46:34,726 INFO    MainThread:72254 [wandb_init.py:init():614] setting up manager
+2025-03-04 19:46:34,729 INFO    MainThread:72254 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-04 19:46:34,731 INFO    MainThread:72254 [wandb_init.py:init():622] backend started and connected
+2025-03-04 19:46:34,737 INFO    MainThread:72254 [wandb_init.py:init():711] updated telemetry
+2025-03-04 19:46:34,738 INFO    MainThread:72254 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2025-03-04 19:46:35,515 INFO    MainThread:72254 [wandb_run.py:_on_init():2402] communicating current version
+2025-03-04 19:46:35,644 INFO    MainThread:72254 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.19.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-03-04 19:46:35,645 INFO    MainThread:72254 [wandb_init.py:init():795] starting run threads in backend
+2025-03-04 19:46:42,402 INFO    MainThread:72254 [wandb_run.py:_console_start():2380] atexit reg
+2025-03-04 19:46:42,402 INFO    MainThread:72254 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-03-04 19:46:42,402 INFO    MainThread:72254 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-03-04 19:46:42,402 INFO    MainThread:72254 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-03-04 19:46:42,404 INFO    MainThread:72254 [wandb_init.py:init():838] run started, returning control to user process
+2025-03-04 23:26:16,749 WARNING MsgRouterThr:72254 [router.py:message_loop():77] message_loop has been closed
